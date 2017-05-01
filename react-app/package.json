@@ -1,0 +1,21 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "office-ui-fabric-react": "^2.23.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-responsive": "^1.2.10",
+    "react-responsive-carousel": "^3.1.15"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

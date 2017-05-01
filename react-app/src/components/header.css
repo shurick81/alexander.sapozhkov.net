@@ -1,0 +1,49 @@
+.header
+{
+    padding-top:20px;
+    padding-bottom:100px;
+}
+.header-toparea
+{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.photo-border
+{
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+@media (min-width: 650px) {
+    .photo-border
+    {
+        width: 300px;
+        height: 300px;
+    }
+}
+.photo-border .photo
+{
+    width: 100%;
+    height: 100%;
+}
+.header-person-anouncement
+{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+@media (min-width: 650px) {
+    .header-person-anouncement
+    {
+        font-size: 32pt;
+    }
+}
+
+@media (min-width: 650px) {
+    .header H1
+    {
+        font-size: 45pt;
+    }
+}

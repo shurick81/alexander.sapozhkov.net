@@ -1,0 +1,21 @@
+.app-wrapper
+{
+  text-align: center;
+}
+.section-body
+{
+  padding-bottom: 30px;
+}
+.section-text
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (min-width: 650px) {
+  .section-text
+  {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,17 @@
+.section-title
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.section-title-label
+{
+    padding-left: 10px;
+}
+@media (min-width: 650px) {
+    .section-title
+    {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

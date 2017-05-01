@@ -1,0 +1,82 @@
+{    
+    "personName": "Alexander SaPozhkov",
+    "personAnouncement": "I am glad you made it!",
+    "smallText": "Keep scrolling to find out why you will want to hire me.",
+    "sections": [
+        {
+            "id": "intro",
+            "title": "Intro",
+            "anouncement": "Why I am the one",
+            "icon": "Home",
+            "moodPhoto": "SPNews",
+            "text": "My name is Alexander Sapozhkov and I am a SharePoint contract “all-rounder” (Administrator, Developer, Trainer, Technical Project Manager and Business Analyst). I have over 10 years of total experience working with SharePoint 2007, SharePoint 2010, SharePoint 2013 and 2016.  My responsibilities have varied from recreating architectures, server administration, troubleshooting SharePoint, developing in InfoPath & SharePoint Designer, working with search and some development with CSOM, JSOM and in C# & JavaScript libraries within Visual Studio.",
+            "keyAssetsControl":{
+                "label": "These are the qualities I'm mostly proud of:",
+                "assetList": [
+                    {
+                        "title": "Developing business",
+                        "text": "The primary goal of each task I perform is improvement in your business. After many years in IT I perfectly realize and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even brilliant effort can end up ineffective."
+                    },
+                    {
+                        "title": "Passionate about IT",
+                        "text": "Information technology is my obsession, which means I never get tired from it. It also means you don't have to motivate me doing great job since it's my destiny."
+                    },
+                    {
+                        "title": "Long-term vision",
+                        "text": "Not only is know pain points my constant priority, but many years of experience behind my shoulders also allow me to foresee customer future needs and verify them with stakeholders."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "architect",
+            "title": "SharePoint Architect",
+            "anouncement": "Let's make this solution even greater!",
+            "icon": "SharepointLogo",
+            "keyAssetsControl":{
+                "label": "",
+                "assetList": [
+                    {
+                        "title": "Enterprise demands understanding"
+                    },
+                    {
+                        "title": "Prototyping"
+                    },
+                    {
+                        "title": "Negotiating with customer and interpreting their demands"
+                    },
+                    {
+                        "title": "Evaluating multiple ways of implementing the solution"
+                    },
+                    {
+                        "title": "Design patterns applying"
+                    },
+                    {
+                        "title": "Foresee and address future customer demands"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "developer",
+            "title": "Developer for you",
+            "anouncement": "Find out if my competence matches what you need",
+            "icon": "DeveloperTools"
+        },
+        {
+            "id": "current",
+            "title": "My Current Job",
+            "anouncement": ""
+        },
+        {
+            "id": "personal",
+            "title": "Personal life",
+            "anouncement": ""
+        },
+        {
+            "id": "contact",
+            "title": "Contact",
+            "anouncement": "I look forward to hearing from you"
+        }
+    ]
+}

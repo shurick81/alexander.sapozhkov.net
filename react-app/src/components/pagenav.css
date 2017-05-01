@@ -1,0 +1,20 @@
+.pagenav-col
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pagenav .pagenav-button
+{
+    min-width: 100%;
+    min-height: 100px;
+    font-size: 18px;
+}
+@media (min-width: 650px) {
+  .pagenav
+  {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
