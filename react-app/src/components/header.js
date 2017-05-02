@@ -9,20 +9,26 @@ class PageHeader extends Component {
   render() {
     return (
         <header className="header">
-            <div className="header-toparea">
-                <figure className="photo-border">
-                    <MediaQuery query='(max-width: 650px)'>
-                        <img src={personaImageSmall} className="photo" alt={this.props.pageData.personName}/>
-                    </MediaQuery>
-                    <MediaQuery query='(min-width: 651px)'>
-                        <img src={personaImageBig} className="photo" alt={this.props.pageData.personName}/>
-                    </MediaQuery>
-                </figure>
-                <h1 className="header-title ms-font-xxl">{this.props.personName}</h1>
-                <div className="header-person-anouncement ms-font-xl">{this.props.pageData.personAnouncement}</div>
-                <div className="header-person-smalltext ms-font-xl">{this.props.pageData.smallText}</div>
+            <div className="header-grid ms-Grid-row">
+                <div className="photo-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg12 ms-u-xl4">
+                    <figure className="photo-border">
+                        <MediaQuery query='(max-width: 650px)'>
+                            <img src={personaImageSmall} className="photo" alt={this.props.pageData.personName}/>
+                        </MediaQuery>
+                        <MediaQuery query='(min-width: 651px)'>
+                            <img src={personaImageBig} className="photo" alt={this.props.pageData.personName}/>
+                        </MediaQuery>
+                    </figure>
+                </div>
+                <div className="header-anouncearea ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg12 ms-u-xl8">
+                    <h1 className="header-title ms-font-xxl">{this.props.personName}</h1>
+                    <div className="header-person-anouncement ms-font-xl">{this.props.pageData.personAnouncement}</div>
+                    <div className="header-person-smalltext ms-font-xl">{this.props.pageData.smallText}</div>
+                </div>
+                <div className="nav-col ms-Grid-col ms-u-sm12">
+                    <PageNav pageData={this.props.pageData}/>
+                </div>
             </div>
-            <PageNav pageData={this.props.pageData}/>
         </header>
     );
   }

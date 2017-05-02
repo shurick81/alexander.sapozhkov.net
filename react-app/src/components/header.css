@@ -2,11 +2,16 @@
 {
     padding-top:20px;
     padding-bottom:100px;
+    padding-left: 13pt;
+    padding-right: 13pt;
 }
-.header-toparea
-{
-    padding-top: 70px;
-    padding-bottom: 80px;
+@media (min-width: 1200px) {
+    .header
+    {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .photo-border
 {
@@ -29,6 +34,10 @@
     width: 100%;
     height: 100%;
 }
+.header-anouncearea
+{
+    padding-top: 80px;
+}
 .header-person-anouncement
 {
     margin-bottom: 30px;
@@ -37,13 +46,16 @@
 @media (min-width: 650px) {
     .header-person-anouncement
     {
-        font-size: 32pt;
+        font-size: 45px;
     }
 }
-
+.nav-col
+{
+    padding-top: 100px;
+}
 @media (min-width: 650px) {
     .header H1
     {
-        font-size: 45pt;
+        font-size: 60px;
     }
 }

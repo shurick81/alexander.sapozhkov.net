@@ -8,8 +8,7 @@
             "title": "Intro",
             "anouncement": "Why I am the one",
             "icon": "Home",
-            "moodPhoto": "SPNews",
-            "text": "My name is Alexander Sapozhkov and I am a SharePoint contract “all-rounder” (Administrator, Developer, Trainer, Technical Project Manager and Business Analyst). I have over 10 years of total experience working with SharePoint 2007, SharePoint 2010, SharePoint 2013 and 2016.  My responsibilities have varied from recreating architectures, server administration, troubleshooting SharePoint, developing in InfoPath & SharePoint Designer, working with search and some development with CSOM, JSOM and in C# & JavaScript libraries within Visual Studio.",
+            "moodPhoto": "inferno",
             "keyAssetsControl":{
                 "label": "These are the qualities I'm mostly proud of:",
                 "assetList": [
@@ -59,24 +58,27 @@
         },
         {
             "id": "developer",
-            "title": "Developer for you",
+            "title": "Developer",
             "anouncement": "Find out if my competence matches what you need",
             "icon": "DeveloperTools"
         },
         {
             "id": "current",
             "title": "My Current Job",
-            "anouncement": ""
+            "anouncement": "",
+            "icon": "Work"
         },
         {
             "id": "personal",
             "title": "Personal life",
-            "anouncement": ""
+            "anouncement": "",
+            "icon": "Camera"
         },
         {
             "id": "contact",
             "title": "Contact",
-            "anouncement": "I look forward to hearing from you"
+            "anouncement": "I look forward to hearing from you",
+            "icon": "MapDirections"
         }
     ]
 }

@@ -9,7 +9,8 @@ class SectionTitle extends Component {
     if (this.props.backgroundImage != null)
     {
       sectionTitleStyle = {
-        background: "linear-gradient( rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5) ),url(" + require('../photos/' + this.props.backgroundImage + '-big.jpg') + ")"
+        "background": "linear-gradient( rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5) ),url(" + require('../photos/' + this.props.backgroundImage + '-big.jpg') + ")",
+        "background-size": "100% auto"
       }
     };
     return (

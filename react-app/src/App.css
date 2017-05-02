@@ -1,21 +1,25 @@
 .app-wrapper
 {
   text-align: center;
+  color: #002355;
 }
-.section-body
+.headerWrapper
 {
-  padding-bottom: 30px;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
-.section-text
+.pageBody
 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 1000px;
 }
-@media (min-width: 650px) {
-  .section-text
-  {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.app-wrapper BUTTON
+{
+  /* color is overwritten by Office UI Fabric button styles */
+  background-color: #002355;
+  color: white;
+}
+.app-wrapper BUTTON:hover
+{
+  background-color: #002355;
 }
