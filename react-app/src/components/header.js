@@ -6,6 +6,19 @@ import MediaQuery from 'react-responsive';
 import PageNav from './pagenav';
 
 class PageHeader extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {appTop: 0};
+  }
+  tick() {
+    this.setState({scrollTop: document.body.scrollTop});
+  };
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      100
+    );
+  }
   render() {
     return (
         <header className="header">

@@ -32,6 +32,7 @@
             "title": "SharePoint Architect",
             "anouncement": "Let's make this solution even greater!",
             "icon": "SharepointLogo",
+            "moodPhoto": "design",
             "keyAssetsControl":{
                 "label": "",
                 "assetList": [

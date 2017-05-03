@@ -3,11 +3,12 @@ import './section.css';
 import SectionTitle from './sectionTitle';
 import 'react-responsive-carousel/lib/styles/carousel.css';
 
-class IntroSection extends Component {
+class Section extends Component {
   render() {
     var backGroundImage = (this.props.sectionData.moodPhoto === undefined) ? null : this.props.sectionData.moodPhoto;
+    var className = (this.props.className === undefined) ? "section" : "section " + this.props.className;
     return (
-        <section className="section">
+        <section className={className}>
             <SectionTitle
                 backgroundImage={backGroundImage}
                 displayTitle={this.props.sectionData.title}
@@ -22,4 +23,4 @@ class IntroSection extends Component {
   }
 }
 
-export default IntroSection;
+export default Section;
