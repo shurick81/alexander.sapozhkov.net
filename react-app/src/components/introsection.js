@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './introsection.css';
-import Section from './section';
+import BaseSection from './basesection';
 var Carousel = require('react-responsive-carousel').Carousel;
 import 'react-responsive-carousel/lib/styles/carousel.css';
 
@@ -13,12 +13,12 @@ class IntroSection extends Component {
         </div>
     );
     return (
-        <Section sectionData={this.props.sectionData} className="intro-section">
+        <BaseSection sectionData={this.props.sectionData} className="intro-section">
             <h3 className="carousel-header ms-font-l">{this.props.sectionData.keyAssetsControl.label}</h3>
             <Carousel axis="horizontal" showThumbs={false} showStatus={false} infiniteLoop={true}>
                 {assets}
             </Carousel>
-        </Section>
+        </BaseSection>
     );
   }
 }

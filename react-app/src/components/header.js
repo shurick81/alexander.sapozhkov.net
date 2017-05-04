@@ -11,7 +11,13 @@ class PageHeader extends Component {
     this.state = {appTop: 0};
   }
   tick() {
-    this.setState({scrollTop: document.body.scrollTop});
+      var minScrollForSticking = 430;
+      if (document.body.scrollTop >= minScrollForSticking)
+      {
+        this.setState({stickyHeader: true});
+      } else {
+        this.setState({stickyHeader: false});
+      }
   };
   componentDidMount() {
     this.timerID = setInterval(
@@ -20,8 +26,9 @@ class PageHeader extends Component {
     );
   }
   render() {
+    var headerClassName=this.state.stickyHeader?"header sticked":"header"
     return (
-        <header className="header">
+        <header className={headerClassName}>
             <div className="header-grid ms-Grid-row">
                 <div className="photo-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg12 ms-u-xl4">
                     <figure className="photo-border">

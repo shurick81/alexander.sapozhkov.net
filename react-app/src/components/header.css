@@ -4,6 +4,10 @@
     padding-bottom:100px;
     padding-left: 13pt;
     padding-right: 13pt;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;
 }
 @media (min-width: 1200px) {
     .header
@@ -12,6 +16,14 @@
         margin-left: auto;
         margin-right: auto;
     }
+}
+.header.sticked
+{
+    position: fixed;
+}
+.header.sticked .photo-col, .header.sticked .header-anouncearea
+{
+    display: none;
 }
 .photo-border
 {
@@ -52,6 +64,10 @@
 .nav-col
 {
     padding-top: 100px;
+}
+.header.sticked .nav-col
+{
+    padding-top: 0;
 }
 @media (min-width: 650px) {
     .header H1
