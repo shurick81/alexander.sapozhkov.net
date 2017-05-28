@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './pagenav.css';
-import { PrimaryButton, IButtonProps } from 'office-ui-fabric-react/lib/Button';
+import { PrimaryButton } from 'office-ui-fabric-react/lib/Button';
 import Scroll from 'react-scroll';
+import MediaQuery from 'react-responsive';
 
 var Link       = Scroll.Link;
 var Element    = Scroll.Element;
@@ -10,27 +11,58 @@ var scroll     = Scroll.animateScroll;
 var scrollSpy  = Scroll.scrollSpy;
 
 class PageNav extends Component {
-  render() {
-    var pageNavButtons = this.props.pageData.sections.map((sectionData, index)=>
-        <div className="pagenav-col ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4 ms-u-xl4 ms-u-xxl2" key={index}>
-            <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
-                <PrimaryButton
-                    className="pagenav-button"
-                    data-automation-id={sectionData.id}
-                    text={sectionData.title}
-                    iconProps={ { iconName: sectionData.icon } }
-                />
-            </Link>
-        </div>
-    );
-    return (
-        <nav className="pagenav">
-            <div className="ms-Grid-row">
-                {pageNavButtons}
+    render() {
+        var pageNavColSmClass = !this.props.sticked?"6":"12";
+        var pageNavColMdClass = !this.props.sticked?"6":"12";
+        var pageNavColLgClass = !this.props.sticked?"4":"12";
+        var pageNavColXlClass = !this.props.sticked?"4":"2";
+        var pageNavColXxlClass = !this.props.sticked?"4":"2";
+        var pageNavButtons = this.props.pageData.sections.map((sectionData, index)=>
+            <div className={`pagenav-col ms-Grid-col ms-u-sm${pageNavColSmClass} ms-u-md${pageNavColMdClass} ms-u-lg${pageNavColLgClass} ms-u-xl${pageNavColXlClass} ms-u-xxl${pageNavColXxlClass}`} key={index}>
+                <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                    <PrimaryButton
+                        className="pagenav-button"
+                        text={sectionData.title}
+                        iconProps={ { iconName: sectionData.icon } }
+                    />
+                </Link>
             </div>
-        </nav>
-    );
-  }
+        );
+        var shortPageNavButtons = this.props.pageData.sections.map((sectionData, index)=>
+            <div className={`pagenav-col ms-Grid-col ms-u-sm${pageNavColSmClass} ms-u-md${pageNavColMdClass} ms-u-lg${pageNavColLgClass} ms-u-xl${pageNavColXlClass} ms-u-xxl${pageNavColXxlClass}`} key={index}>
+                <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                    <PrimaryButton
+                        className="pagenav-button"
+                        iconProps={ { iconName: sectionData.icon } }
+                    />
+                </Link>
+            </div>
+        );
+        if (!this.props.sticked)
+        return (
+            <nav className={this.props.className}>
+                <div className="ms-Grid-row">
+                    {pageNavButtons}
+                </div>
+            </nav>
+        ); else return (
+            <nav className={this.props.className}>
+                <MediaQuery query='(max-width: 1023px)'>
+                    <div className="ms-Grid-row">
+                        {shortPageNavButtons}
+                    </div>
+                </MediaQuery>
+                <MediaQuery query='(min-width: 1024px)'>
+                    <MediaQuery query='(max-width: 1889px)'>
+                        {shortPageNavButtons}
+                    </MediaQuery>
+                    <MediaQuery query='(min-width: 1890px)'>
+                        {pageNavButtons}
+                    </MediaQuery>
+                </MediaQuery>
+            </nav>
+        );
+    }
 }
 
 export default PageNav;

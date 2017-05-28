@@ -1,0 +1,115 @@
+.stickyheader
+{
+  position: fixed;
+  z-index: 3;
+  padding: 0;
+  top: 0;
+  right: 60px;
+  left: 0;
+}
+.stickyheader .togglenav
+{
+  position: absolute;
+  top: 0;
+  right: -60px;
+  min-width: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 32px;
+  background-color:rgba(238,209,47,0.85);
+}
+.stickyheader .togglenav:hover
+{
+  background-color: rgba(238,209,47,0.85);
+  color: white;
+}
+.stickyheader .topPanel
+{
+  background-color:rgba(238,209,47,0.85);
+  min-height: 60px;
+}
+@media (min-width: 1024px) {
+  .stickyheader .topPanel
+  {
+    width: 50%;
+  }
+}
+@media (min-width: 1890px) {
+    .stickyheader .topPanel
+    {
+        width: 25%;
+    }
+}
+.stickyheader .middleheaderarea
+{
+    display: table;
+    width: 100%;
+}
+.stickyheader .photo-border
+{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+}
+.stickyheader .header-title
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    padding-left: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+.stickyheader .nav-col
+{
+    padding-top: 0;
+}
+.stickyheader .pagenav
+{
+  position: absolute;
+  top: 61px;
+  right: -60px;
+  width: 60px;
+  background-color:rgba(238,209,47,0.85);
+}
+@media (min-width: 1024px) {
+  .stickyheader .pagenav
+  {
+    top: 0;
+    right: 0;
+    width: 50%;
+  }
+}
+@media (min-width: 1890px) {
+  .stickyheader .pagenav
+  {
+    width: 75%;
+  }
+}
+.stickyheader .pagenav-col
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.stickyheader .pagenav .pagenav-button
+{
+  min-height: 0;
+  min-width: 0;
+  height: 60px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  font-size: 24px;
+}
+@media (min-width: 1024px) {
+  .stickyheader .pagenav .pagenav-button
+  {
+    width: 100%;
+  }
+}

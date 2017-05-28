@@ -1,28 +1,98 @@
 {    
     "personName": "Alexander SaPozhkov",
+    "titleImage": "MCSE_SharePoint_Blk.png",
+    "jobTitle": "SharePoint Solutions Expert",
     "personAnouncement": "I am glad you made it!",
     "smallText": "Keep scrolling to find out why you will want to hire me.",
     "sections": [
-        {
-            "id": "intro",
-            "title": "Intro",
-            "anouncement": "Why I am the one",
+        {   "id": "intro",
+            "title": "Overview",
+            "anouncement": "Overall information",
             "icon": "Home",
             "moodPhoto": "inferno",
-            "keyAssetsControl":{
-                "label": "These are the qualities I'm mostly proud of:",
-                "assetList": [
+            "text": "Back to 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader on Krasnoyarsk IT market. Telesphere, one of the local television companies, ordered to replace their old-fashioned network-drive-styled document sharing with top-notch web solution based on SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations.",
+            "currentJob":
+            {
+                "label": "Current Job",
+                "text": "These days I work for Kentor, a leading IT company in Stockholm. My job is a mix of solution design on a SharePoint platform, development and deployment. Not only do I appreciate technical challenges here, but this company encourages me to train soft skills and keep in tonus my balance between the value that we bring to the company and our cost, which is crucial nowadays."
+            },
+            "humanLanguages":
+            {
+                "label": "Human Languages",
+                "text": "My mother tongue is Russian. My command of English is also not bad: I recently took the IELTS exam, that placed my usage of the language at C1-C2 from one skill to another."
+            },
+            "assignmentTypes": {
+                "label": "Project Experience",
+                "maximumRating": 5,
+                "items": [
+                    { "title": "Intranet implementation", "rating": 5 },
+                    { "title": "Document management system implementation", "rating": 4 },
+                    { "title": "Custom system development", "rating": 3 },
+                    { "title": "Internet site building", "rating": 2 },
+                    { "title": "System migration", "rating": 2 },
+                    { "title": "Single Sign On implementation", "rating": 1 }
+                ]
+            },
+            "keySkills": {
+                "label": "Skills",
+                "maximumRating": 25,
+                "items": [
+                    { "title": "Solution design", "rating": 25 },
+                    { "title": "Development", "rating": 22 },
+                    { "title": "Capacity planning", "rating": 21 },
+                    { "title": "Deployment", "rating": 19 },
+                    { "title": "Branding", "rating": 18 },
+                    { "title": "Presentation", "rating": 16 },
+                    { "title": "Administration", "rating": 15 },
+                    { "title": "Teaching", "rating": 14 },
+                    { "title": "Tech leading", "rating": 12 }
+                ]
+            },
+            "keyTechnologies":
+            {
+                "label": "Technologies",
+                "maximumRating": 11,
+                "items": [
+                    { "title": "SharePoint", "rating": 11 },
+                    { "title": "PowerShell", "rating": 9 },
+                    { "title": "Office 365", "rating": 7 },
+                    { "title": "Javascript", "rating": 6.8 },
+                    { "title": "HTML/CSS", "rating": 6.8 },
+                    { "title": "Enterprise IT infrastructure", "rating": 6.5 },
+                    { "title": "CSOM", "rating": 6.2 },
+                    { "title": "SSOM", "rating": 6 },
+                    { "title": "SQL", "rating": 4.5 },
+                    { "title": "MS Office", "rating": 4 },
+                    { "title": "C#", "rating": 2 },
+                    { "title": "SPFx", "rating": 1.7 },
+                    { "title": "ReactJS", "rating": 1.7 },
+                    { "title": "PHP", "rating": 1 },
+                    { "title": "Azure", "rating": 1 },
+                    { "title": "Active Directory", "rating": 1 },
+                    { "title": "TCP/IP", "rating": 1},
+                    { "title": "DNS", "rating": 1 }
+                ]
+            },
+            "keyAdvantages": {
+                "label": "Qualities",
+                "contentItems": [
                     {
-                        "title": "Developing business",
-                        "text": "The primary goal of each task I perform is improvement in your business. After many years in IT I perfectly realize and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even brilliant effort can end up ineffective."
+                        "title": "Business improvement",
+                        "image": "bdev-orig.jpg",
+                        "text": "The primary goal of each task I perform is improvement in your business. After many years in IT I perfectly realize and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even brilliant effort can end up ineffective.",
+                        "example": "In 2016 Working in Kentor company I have developed SharePoint Fastrack packaged service to facilitate customer engagement in new Intranet projects."
                     },
                     {
                         "title": "Passionate about IT",
-                        "text": "Information technology is my obsession, which means I never get tired from it. It also means you don't have to motivate me doing great job since it's my destiny."
+                        "image": "passion-orig.jpg",
+                        "text": "Information technology is my obsession, which means I never get tired from doing this. It also means you don't have to motivate me doing great job since it's my destiny.",
+                        "example": "Even when project manager says 'Ok, let's admit we lost this opportunity', I don't give up and make impossible, because I know that nothing is impossible in IT."
                     },
                     {
                         "title": "Long-term vision",
-                        "text": "Not only is know pain points my constant priority, but many years of experience behind my shoulders also allow me to foresee customer future needs and verify them with stakeholders."
+                        "image": "longterm-orig.jpg",
+                        "text": "Not only are know pain points my constant priority, but many years of experience behind my shoulders also allow me to foresee customer future needs and verify them with stakeholders.",
+                        "example": "Developing a request management system for Bavaria company I insisted on building a deployment script, which in its turn saved dozens and dozens of hours that we would have spent on deploying all the system changes in numerous development and production envionrment."
                     }
                 ]
             }
@@ -31,28 +101,52 @@
             "id": "architect",
             "title": "SharePoint Architect",
             "anouncement": "Let's make this solution even greater!",
-            "icon": "SharepointLogo",
+            "icon": "Org",
             "moodPhoto": "design",
-            "keyAssetsControl":{
-                "label": "",
-                "assetList": [
+            "keyAssets": {
+                "label": "In the course of my SharePoint journey I've gained architecture skills",
+                "contentItems": [
                     {
-                        "title": "Enterprise demands understanding"
+                        "title": "Enterprise demands understanding",
+                        "image": "selectserviceThumb.jpg",
+                        "text": "I have been discussing business demands with top management of different companies and I perfectly understand their interests and the uniqueness of each business. I also collaborated a lot with IT departments and for this reasons I clearly realize causes and consequences of their policies and requirements.",
+                        "example": "In 2015 Kentor was contracted by one of union umbrella organization in Stockholm. Choosing the right type of SSL and SSO signing certificates was a challenging task but since I had had previous network administration experience."
                     },
                     {
-                        "title": "Prototyping"
+                        "title": "Prototyping",
+                        "image": "model-home-printing-3d-object.jpg",
+                        "text": "Making use of proper prototyping approach for proof of concept or for functional prototyping guaranteees the optimal resource consumption, which is essential especially on the beginning of a project.",
+                        "example": "When customer ordered Kentor to develop a system with complicated screen forms, I quickly developed form prototypes using Infopath in order to identify requirements."
                     },
                     {
-                        "title": "Negotiating with customer and interpreting their demands"
+                        "title": "Negotiating with customer and interpreting their demands",
+                        "image": "swayprojectThumb.png",
+                        "text": "Often a project budjet can be saved just by correct interpreting customer needs. Numerous times I just had to talk to project sponsor to explain that it is reasonable to postpone builiding one or another system feature. In other occasions I needed to discuss requirements to realize that some use cases were distorted or misinterpret by sales or project managers.",
+                        "example": "Initially customer requested employee examination system with statistics page. When I discussed this demand with client it turned out that using Excel reports will be convenient solution for users, which reduced development efforts by hundreds of hours."
                     },
                     {
-                        "title": "Evaluating multiple ways of implementing the solution"
+                        "title": "Evaluating multiple ways of implementing the solution",
+                        "image": "differentapproachThumb.png",
+                        "text": "Instead of implementing the solution via first compelling implementation approach, I prefer to go the extra mile and consider possible future demands changes and also consider other implementation options.",
+                        "example": "The most popular framework for system elements provisioning in SharePoint is PnP Provisioning Engine. However, I insisted on comparing this tool with Meta2 for one particular solution and it appeared that Meta2 is more convenient for given task."
                     },
                     {
-                        "title": "Design patterns applying"
+                        "title": "Design patterns applying",
+                        "image": "crystalstructureThumb.png",
+                        "text": "There is no secret that is not only software development a magic but it is also a craft with known practices and patterns, which help to achieve better result with less effort.",
+                        "example": "Applying these patterns according to formal and assumed requirements made solution design less time consuming in many project."
                     },
                     {
-                        "title": "Foresee and address future customer demands"
+                        "title": "Foresee and address future customer demands",
+                        "image": "headphonesvrThumb.jpg",
+                        "text": "It is crucial for architect to not constrain the solution by current demands only, but also to keep in mind possible future improvement directions.",
+                        "example": "In one project in 2016 for one of Stockholm union organization we needed a search function for content in multiple site collections of a custom document management system. The most obvious decision was to base a filter on system URL. However, I instisted on filtering based on content types instead. One year after customer decided to build one more system in the same URL, so the decidion regarding content types filtering allowed to use one URL for multiple systems without any conflicts."
+                    },
+                    {
+                        "title": "Complex SharePoint farm topologies design",
+                        "image": "appdesignThumb.jpg",
+                        "text": "Some farms that I've deployed were not trivial and that gave me uniquie experience in building optimal configuration for specific requirements.",
+                        "example": "In 2015 I have designed a farm for umbrella organization and the best solution was to apply multitenancy for isolating search, managed metadata and user profiles."
                     }
                 ]
             }
@@ -61,25 +155,145 @@
             "id": "developer",
             "title": "Developer",
             "anouncement": "Find out if my competence matches what you need",
-            "icon": "DeveloperTools"
+            "icon": "Code",
+            "moodPhoto": "typing",
+            "keyAssets":{
+                "label": "Software development has changed a few times since I've developed my first commercial code. Here are few examples you might consider relevant to your tasks",
+                "contentItems": [
+                    {
+                        "title": "SPFx Delve web part for Kentor packaged Intranet",
+                        "image": "TrendingWPThumb.png",
+                        "text": "I am sure that using cutting edge techology is the best for building long running solutions. This web part is supposed to show relevant documents on the Intranet home page. It was developed as a component of the Kentor package for building Intranet solution for their customers. It was my first experience of developing for SPFx. This particular web part was developed with the use of GQL, ReactJS and SCSS.",
+                        "fullImage": "TrendingWPFull.png"
+                    },
+                    {
+                        "title": "Responsive home page for TeleComputing Intranet Solution",
+                        "image": "TCIntraThumb.png",
+                        "text": "In 2014 Kentor was a subsidiary of the TeleComputing and I have developed a packaged Intranet solution so that TeleComputing could deliver it to their customers. My task was to develop a structure, installation package and unique layout that could be used for both desktop and mobile displays.",
+                        "fullImage": "TCIntraFull.png"
+                    },
+                    {
+                        "title": "Branding for SharePoint solutions",
+                        "image": "sevminbrandingThumb.jpg",
+                        "text": "I am passioned about look and feel of solutions I deliver. So I put a lot of efforts into polishing components UI and making it stable to minimize the probability of further changes breaking the layout. In order to achieve this I use both CSS and JavaScript for such customizations. I have carried out dozens of branding tasks and I know both development workflow and SharePoint styles.",
+                        "fullImage": "sevminbrandingFull.png"
+                    },
+                    {
+                        "title": "Using built-in sharepoint functionality instead of reinventing the wheel",
+                        "image": "metadatafilterThumb.png",
+                        "text": "Being familiar with SharePoint already more than ten years I know all its features as the back of my hand. I therefore stand for using high level development: customizing existing SharePoint components and features instead of developing something from the scratch. The example shows the usage of builtin SharePoint library metadata navigation, although I had to apply some styling to it.",
+                        "fullImage": "metadatafilterFull.png"
+                    },
+                    {
+                        "title": "Fractal Provisioner: Client Script SharePoint artefacts provisioning",
+                        "image": "provisioningcodeThumb.png",
+                        "text": "When SharePoint Online was just started being trendy, Kentor needed a provisioning engine for deploying packaged solutions to multiple customers. I have developed <a href='http://fractalprovisioner.codeplex.com'>this framework</a> that allows to define the structure for deployment via XML document.",
+                        "fullImage": "provisioningcodeFull.png"
+                    },
+                    {
+                        "title": "Agile development",
+                        "image": "scrumThumb.png",
+                        "text": "I usually work in projects with adoptation of some agile methodology with granting roles, regular standup meetings. Usually I prefer to work with team because I appreciate deep expertise and specialization. However I am also used to being responsible for the whole task or project solely."
+                    }
+                ]
+            }
         },
         {
-            "id": "current",
-            "title": "My Current Job",
-            "anouncement": "",
-            "icon": "Work"
+            "id": "administrator",
+            "title": "Administrator",
+            "anouncement": "One more role that often stands apart from development",
+            "icon": "DeveloperTools",
+            "moodPhoto": "hardware",
+            "text": "Before coming across SharePoint I have gained an invaluable experience of network administrator. Thorough understanding computer network fundamentals gives me a great advantage when the discussion comes to integrating new solution with existing enterprise application and infrastructure.",
+            "keyAssets": {
+                "label": "Here is what distinguishs me on this role:",
+                "contentItems": [
+                    {
+                        "title": "Automated deployment",
+                        "image": "machineworkThumb.jpg",
+                        "text": "I believe every configurational change should be automated and scripted as much as possible. I use DSC framework together with PowerShell scripting. Not only does this save time on applying the same change in multiple environments, such as development, test and production, but it also improves the probability that the change will be documented and it will be possible to find its trace in versioning control systems."
+                    },
+                    {
+                        "title": "Configuration management",
+                        "image": "gearsThumb.jpg",
+                        "text": "This role requires discipline and surprisingly experience. After spending in total hundreds of hours on fixing mistakes in deployment procedure I have learned the value of routines: issuing release notes, updating configuration documentation, logging, roll back planning, etc."
+                    },
+                    {
+                        "title": "Capacity planning",
+                        "image": "datacenterThumb.jpg",
+                        "text": "I have troubleshooted performance issues multiple times and I know what are the most likely bottlenecks and how to plan the farm topology preventively."
+                    },
+                    {
+                        "title": "Troubleshooting",
+                        "image": "healthcareThumb.jpg",
+                        "text": "Again, since I have got a serious experience of network administrator, I perfectly understand nuances of support and problem solving in a corporate environment. In the course of my life I have developed many usefull habbits and methods and also learned a number of tools for effective searching for the intrinsic problem and solution."
+                    }
+                ]
+            }
         },
         {
-            "id": "personal",
-            "title": "Personal life",
-            "anouncement": "",
-            "icon": "Camera"
+            "id": "assignments",
+            "title": "Assignments",
+            "anouncement": "The list of activities I hope you will find good to know about",
+            "icon": "IssueTracking",
+            "text": "Choose appropriate filter:",
+            "assignments":
+            {
+                "items":
+                [
+                    {
+                        "beginning": "2013-10-01",
+                        "ending": "2014-01-31",
+                        "client": "Gazprom Gazomotornoye Toplivo",
+                        "clientLogo": "gplogo.png",
+                        "clientIndustry": "Gaz and Oil",
+                        "type": "Intranet Implementation",
+                        "title": "Intranet Implementation",
+                        "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
+                        "technologies": ["SharePoint 2013"]
+                    },
+                    {
+                        "beginning": "2013-07-01",
+                        "ending": "2013-09-31",
+                        "client": "585",
+                        "clientLogo": "585logo.png",
+                        "clientIndustry": "Jewelry",
+                        "type": "Custom development",
+                        "title": "Freelance job management",
+                        "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
+                        "technologies": ["SharePoint 2010"]
+                    }
+                ]
+            }
         },
         {
             "id": "contact",
             "title": "Contact",
             "anouncement": "I look forward to hearing from you",
-            "icon": "MapDirections"
+            "icon": "MapDirections",
+            "moodPhoto": "handshake",
+            "text": "Currently I live and work in Saint Petersburg, Russia. However, I'm looking for challenges from all over the world, so feel free to get in touch with me.",
+            "contactLines": [
+                {
+                    "class": "phone",
+                    "icon": "Phone",
+                    "number": "+7 981 833 6552"
+                },
+                {
+                    "class": "linkedin",
+                    "url": "https://www.linkedin.com/in/alexander-sapozhkov-1abb8424"
+                },
+                {
+                    "class": "email",
+                    "icon": "Mail",
+                    "address": "alexander@sapozhkov.net"
+                },
+                {
+                    "class": "skype",
+                    "icon": "SkypeLogo",
+                    "profilename": "asapozhkov"
+                }
+            ]
         }
     ]
 }

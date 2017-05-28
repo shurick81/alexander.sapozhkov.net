@@ -1,0 +1,13 @@
+.listwrapper
+{
+    padding-bottom: 20px;
+}
+.itemlabel-col
+{
+    text-align: right;
+    min-height: 3em;
+}
+.itemrating-col
+{
+    text-align: left;
+}

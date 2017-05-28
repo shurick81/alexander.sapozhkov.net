@@ -1,0 +1,60 @@
+.contentlist .slide-header
+{
+    margin-bottom: 20px;
+}
+.contentitem-imagelink
+{
+    cursor: pointer;
+}
+.contentitem-image
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contentlist .slide-plaintext
+{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contentlist .slide-example
+{
+    margin-bottom: 10px;
+}
+@media (min-width: 640px) {
+    .contentlist .slide-example
+    {
+        text-align: left;
+    }
+}
+.contentlist .examplebuttonarea
+{
+    display: inline-block;
+}
+.contentlist .examplebuttonarea .examplebutton
+{
+    background-color: #002355;
+}
+.exampletextpositioner
+{
+    position: relative;
+}
+.contentlist .exampletext
+{
+    text-align: left;
+}
+.contentlist .exampletextpositioner .exampletext
+{
+    position: absolute;
+    z-index: 4;
+    border: solid 1px #002355;
+    background-color: white;
+    padding: 15px;
+}
+.examplecallout
+{
+    max-width: 300px;
+}
+.examplecallout .exampletext
+{
+    padding: 15px;
+}

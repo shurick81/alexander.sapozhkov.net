@@ -1,23 +1,10 @@
-.intro-section .carousel-header
-{
-    margin-bottom: 0px;
+@media (min-width: 1024px) {
+    .intro-section .sectiontext.top
+    {
+        padding-top: 20px;
+    }
 }
-.intro-section .carousel .slide
+.intro-section .contentitem-col
 {
-    background: transparent;
-}
-.intro-section .slide .text-slide
-{
-    padding-top: 15px;
-    padding-bottom: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.intro-section .slide-header
-{
-    margin-bottom: 7px;
-}
-.slide-plaintext
-{
-    text-align: left;
+    min-height: 480px;
 }

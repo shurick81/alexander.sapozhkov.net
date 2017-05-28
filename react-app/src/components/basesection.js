@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './section.css';
-import SectionTitle from './sectionTitle';
+import './basesection.css';
+import SectionTitle from './sectiontitle';
 import 'react-responsive-carousel/lib/styles/carousel.css';
 import Scroll from 'react-scroll';
 
@@ -23,8 +23,8 @@ class BaseSection extends Component {
                 anouncement={this.props.sectionData.anouncement}
                 icon={this.props.sectionData.icon}
             />
-            <div className="section-body">
-                {this.props.children}
+            <div className="section-body pagewidthlimitedncentered width-padding">
+                { this.props.children }
             </div>
         </section>
     );

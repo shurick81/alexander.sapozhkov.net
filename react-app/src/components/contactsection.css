@@ -1,0 +1,26 @@
+.contact-section .section-body
+{
+}
+
+@media (min-width: 1024px) {
+    .contact-section .sectiontext
+    {
+        padding-top: 40px;
+    }
+}
+.contactlist
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contactlist
+{
+    background-color: rgba(238,209,47,0.5);
+    padding-top: 30px;
+}
+.contactdata-col
+{
+    min-height: 3em;
+}

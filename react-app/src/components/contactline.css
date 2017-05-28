@@ -1,0 +1,14 @@
+.contacticon-col
+{
+    text-align: right;
+    padding-bottom: 15px;
+}
+.contactdata-col
+{
+    text-align: left;
+    padding-bottom: 15px;
+}
+.contacticon
+{
+    max-height: 20px;
+}

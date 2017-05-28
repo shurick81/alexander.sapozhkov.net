@@ -1,0 +1,17 @@
+.assignmentlistwrapper .assignmentitem-grid
+{
+    margin-bottom: 20px;
+}
+.assignmentlistwrapper .assignmentlabel-col
+{
+    text-align: right;
+    display: none;
+}
+.assignmentlistwrapper .assignmentvalue-col
+{
+    text-align: left;
+}
+.assignmentlistwrapper .assignmentlogo
+{
+    max-width: 100px;
+}
