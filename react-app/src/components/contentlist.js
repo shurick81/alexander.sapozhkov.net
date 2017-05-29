@@ -28,7 +28,7 @@ class ContentList extends Component {
     }
     onHideExampleButtonClick(index)
     {
-        this.setState( { displayedExample: { index: -1 }, selectedIndex: this.state.selectedIndex } )
+        this.setState( { displayedExample: { index: -1 }, selectedIndex: index } )
     }
     onThumbClick(fullScreenImageUrl, fullScreenTitle)
     {
@@ -68,13 +68,15 @@ class ContentList extends Component {
             <div className="contentlist">
                 <h3 className="contentlist-header ms-font-xl">{this.props.contentListData.label}</h3>
                 <MediaQuery query='(max-width: 639px)'>
-                    <Carousel axis="horizontal" selectedItem={this.state.selectedIndex} onChange={() => this.onHideExampleButtonClick(-1)} showThumbs={false} showStatus={false} infiniteLoop={true} className="carouselblock">
+                    <Carousel axis="horizontal" selectedItem={this.state.selectedIndex} onChange={(index) => this.onHideExampleButtonClick(index)} showThumbs={false} showStatus={false} infiniteLoop={true} className="carouselblock">
                         {contentSlideItems}
                     </Carousel>
                 </MediaQuery>
                 <MediaQuery query='(min-width: 640px)'>
-                    <div className="contentlist-grid ms-Grid-row">
-                        {contentGridItems}
+                    <div className="contentlist-grid ms-Grid">
+                        <div className="ms-Grid-row">
+                            {contentGridItems}
+                        </div>
                     </div>
                 </MediaQuery>
                 <Panel

@@ -262,6 +262,39 @@
                         "title": "Freelance job management",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
                         "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2013-06-01",
+                        "ending": "2013-08-31",
+                        "client": "Lenta",
+                        "clientLogo": "lentalogo.png",
+                        "clientIndustry": "Retail chain",
+                        "type": "Project Management Automation",
+                        "title": "Project Management Automation",
+                        "roles": ["Administrator"],
+                        "technologies": ["SharePoint 2010", "Project Server"]
+                    },
+                    {
+                        "beginning": "2013-05-15",
+                        "ending": "2013-09-31",
+                        "client": "A Plus Development",
+                        "clientLogo": "apluslogo.png",
+                        "clientIndustry": "Property development",
+                        "type": "Intranet Implementation",
+                        "title": "Intranet Implementation",
+                        "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
+                        "technologies": ["SharePoint 2013"]
+                    },
+                    {
+                        "beginning": "2013-04-15",
+                        "ending": "2013-08-15",
+                        "client": "Agat",
+                        "clientLogo": "agatlogo.png",
+                        "clientIndustry": "Science and Research",
+                        "type": "DMS implementation",
+                        "title": "DMS implementation",
+                        "roles": ["Developer", "Administrator"],
+                        "technologies": ["SharePoint 2010"]
                     }
                 ]
             }

@@ -19,7 +19,7 @@ class PageNav extends Component {
         var pageNavColXxlClass = !this.props.sticked?"4":"2";
         var pageNavButtons = this.props.pageData.sections.map((sectionData, index)=>
             <div className={`pagenav-col ms-Grid-col ms-u-sm${pageNavColSmClass} ms-u-md${pageNavColMdClass} ms-u-lg${pageNavColLgClass} ms-u-xl${pageNavColXlClass} ms-u-xxl${pageNavColXxlClass}`} key={index}>
-                <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500}>
                     <PrimaryButton
                         className="pagenav-button"
                         text={sectionData.title}
@@ -30,7 +30,7 @@ class PageNav extends Component {
         );
         var shortPageNavButtons = this.props.pageData.sections.map((sectionData, index)=>
             <div className={`pagenav-col ms-Grid-col ms-u-sm${pageNavColSmClass} ms-u-md${pageNavColMdClass} ms-u-lg${pageNavColLgClass} ms-u-xl${pageNavColXlClass} ms-u-xxl${pageNavColXxlClass}`} key={index}>
-                <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                <Link activeClass="active" to={sectionData.id} spy={true} smooth={true} offset={50} duration={500}>
                     <PrimaryButton
                         className="pagenav-button"
                         iconProps={ { iconName: sectionData.icon } }
@@ -48,8 +48,10 @@ class PageNav extends Component {
         ); else return (
             <nav className={this.props.className}>
                 <MediaQuery query='(max-width: 1023px)'>
-                    <div className="ms-Grid-row">
-                        {shortPageNavButtons}
+                    <div className="ms-Grid nav-grid">
+                        <div className="ms-Grid-row">
+                            {shortPageNavButtons}
+                        </div>
                     </div>
                 </MediaQuery>
                 <MediaQuery query='(min-width: 1024px)'>

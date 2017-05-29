@@ -1,0 +1,13 @@
+.backtotopbutton-area
+{
+    margin-top: 20px;
+}
+.backtotopbutton-link .backtotop-button
+{
+    width: 60px;
+    height: 60px;
+}
+.backtotopbutton-link .backtotop-button, .backtotopbutton-link .backtotop-button:hover
+{
+    background-color:rgba(238,209,47,0.85);
+}

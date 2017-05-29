@@ -4,11 +4,7 @@ import SectionTitle from './sectiontitle';
 import 'react-responsive-carousel/lib/styles/carousel.css';
 import Scroll from 'react-scroll';
 
-var Link       = Scroll.Link;
-var Element    = Scroll.Element;
-var Events     = Scroll.Events;
-var scroll     = Scroll.animateScroll;
-var scrollSpy  = Scroll.scrollSpy;
+var Element = Scroll.Element;
 
 class BaseSection extends Component {
   render() {
