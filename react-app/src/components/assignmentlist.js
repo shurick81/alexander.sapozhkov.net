@@ -5,7 +5,7 @@ import './assignmentlist.css';
 class AssignmentList extends Component {
     render() {
         var assignments = this.props.assignmentListData.items.map((assignmentData, index)=>
-            <div className="projectitem-col ms-Grid-col ms-u-sm12 ms-u-md6 ms-u-lg4 ms-u-xl3">
+            <div className="projectitem-col ms-Grid-col ms-u-sm12 ms-u-lg6 ms-u-xl4 ms-u-xxl3">
                 <div className="ms-Grid assignmentitem-grid" key={index}>
                     <div className="ms-Grid-row">
                         <div className="assignmenttitle-col assignmentvalue-col ms-Grid-col ms-fontWeight-semibold ms-u-sm12">

@@ -48,6 +48,7 @@ class ContentItem extends Component {
                             this.examplerefs[index] = exampleButton;
                         } }
                         >
+                        <div className="exampletext" dangerouslySetInnerHTML={{__html: txt}} />
                         <PrimaryButton
                             className="examplebutton"
                             text="Example"

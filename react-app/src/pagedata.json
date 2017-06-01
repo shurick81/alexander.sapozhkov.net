@@ -259,8 +259,8 @@
                         "clientLogo": "585logo.png",
                         "clientIndustry": "Jewelry",
                         "type": "Custom development",
-                        "title": "Freelance job management",
-                        "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
+                        "title": "Freelance Job Management",
+                        "roles": ["Analyst", "Project Manager", "Developer", "Administrator", "Architect"],
                         "technologies": ["SharePoint 2010"]
                     },
                     {
@@ -268,7 +268,7 @@
                         "ending": "2013-08-31",
                         "client": "Lenta",
                         "clientLogo": "lentalogo.png",
-                        "clientIndustry": "Retail chain",
+                        "clientIndustry": "Retail Chain",
                         "type": "Project Management Automation",
                         "title": "Project Management Automation",
                         "roles": ["Administrator"],
@@ -279,7 +279,7 @@
                         "ending": "2013-09-31",
                         "client": "A Plus Development",
                         "clientLogo": "apluslogo.png",
-                        "clientIndustry": "Property development",
+                        "clientIndustry": "Property Development",
                         "type": "Intranet Implementation",
                         "title": "Intranet Implementation",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
@@ -294,6 +294,94 @@
                         "type": "DMS implementation",
                         "title": "DMS implementation",
                         "roles": ["Developer", "Administrator"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2013-04-28",
+                        "ending": "2013-06-15",
+                        "client": "Itaka",
+                        "clientLogo": "itakalogo.png",
+                        "clientIndustry": "Real Estate",
+                        "type": "Portal implementation",
+                        "title": "Intranet Portal",
+                        "roles": ["Analyst", "Project Manager", "Administrator"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2013-03-14",
+                        "ending": "2013-04-18",
+                        "client": "Kirovsky zavod",
+                        "clientLogo": "kzlogo.png",
+                        "clientIndustry": "Industrial Manufacturing",
+                        "type": "Portal branding",
+                        "title": "Intranet Portal Branding",
+                        "roles": ["Analyst", "Project Manager", "Developer"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2012-12-12",
+                        "ending": "2013-02-15",
+                        "client": "Yves Rocher",
+                        "clientLogo": "yvesrocherlogo.png",
+                        "clientIndustry": "Cosmetic Industry",
+                        "type": "Portal implementation",
+                        "title": "Intranet and Partner Portal",
+                        "roles": ["Analyst", "Project Manager", "Administrator", "Architect"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2012-02-12",
+                        "ending": "2013-11-15",
+                        "client": "Rosvodokanal",
+                        "clientLogo": "rosvodokanallogo.png",
+                        "clientIndustry": "Water Supply",
+                        "type": "Portal maintenance",
+                        "title": "Intranet Portal Maintenance",
+                        "roles": ["Developer", "Administrator"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2012-09-13",
+                        "ending": "2013-02-21",
+                        "client": "BaltTransService (Transneft)",
+                        "clientLogo": "transpetroleumlogo.jpg",
+                        "clientIndustry": "Oil and Gaz",
+                        "type": "Portal implementation",
+                        "title": "Intranet Portal",
+                        "roles": ["Analyst", "Project Manager", "Developer"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2012-08-28",
+                        "ending": "2013-04-18",
+                        "client": "Bushe",
+                        "clientLogo": "bushelogo.png",
+                        "clientIndustry": "Eating Places",
+                        "type": "Portal implementation",
+                        "title": "Intranet Portal and Tasks",
+                        "roles": ["Analyst", "Project Manager", "Administrator", "Architect", "Developer"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2013-04-28",
+                        "ending": "2013-06-15",
+                        "client": "Itaka",
+                        "clientLogo": "itakalogo.png",
+                        "clientIndustry": "Real estate",
+                        "type": "Portal implementation",
+                        "title": "Intranet Portal",
+                        "roles": ["Analyst", "Project Manager", "Administrator"],
+                        "technologies": ["SharePoint 2010"]
+                    },
+                    {
+                        "beginning": "2013-04-28",
+                        "ending": "2013-06-15",
+                        "client": "Itaka",
+                        "clientLogo": "itakalogo.png",
+                        "clientIndustry": "Real estate",
+                        "type": "Portal implementation",
+                        "title": "Intranet Portal",
+                        "roles": ["Analyst", "Project Manager", "Administrator"],
                         "technologies": ["SharePoint 2010"]
                     }
                 ]

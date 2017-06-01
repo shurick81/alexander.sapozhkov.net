@@ -18,5 +18,8 @@
 }
 .assignmentlistwrapper .assignmentlogo
 {
-    max-width: 100px;
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 75px;
 }
