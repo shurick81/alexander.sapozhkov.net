@@ -5,10 +5,6 @@ import Scroll from 'react-scroll';
 import MediaQuery from 'react-responsive';
 
 var Link       = Scroll.Link;
-var Element    = Scroll.Element;
-var Events     = Scroll.Events;
-var scroll     = Scroll.animateScroll;
-var scrollSpy  = Scroll.scrollSpy;
 
 class PageNav extends Component {
     render() {

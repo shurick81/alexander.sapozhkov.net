@@ -23,7 +23,7 @@ class ContactLine extends Component {
                         <div className="ms-Grid-row">
                             <div className="contacticon-col ms-Grid-col ms-u-sm2 ms-u-md2 ms-u-lg2 ms-u-xl2 ms-u-xxl2">
                                 <a href={this.props.contactLineData.url} className="linkedinlink">
-                                    <img className="contacticon linkedinicon" src={require('../photos/linkedin-icon.png')}/>
+                                    <img className="contacticon linkedinicon" src={require('../photos/linkedin-icon.png')} alt=""/>
                                 </a>
                             </div>
                             <div className="contactdata-col ms-Grid-col ms-u-sm10 ms-u-md10 ms-u-lg10 ms-u-xl10 ms-u-xxl10">

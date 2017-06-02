@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 import './assignmentlist.css';
+import { Toggle } from 'office-ui-fabric-react/lib/Toggle';
 
 
 class AssignmentList extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            featuredOnly: true,
+            scrollTop: 0,
+            showHeader: false,
+        };
+    };
     render() {
-        var assignments = this.props.assignmentListData.items.map((assignmentData, index)=>
-            <div className="projectitem-col ms-Grid-col ms-u-sm12 ms-u-lg6 ms-u-xl4 ms-u-xxl3">
-                <div className="ms-Grid assignmentitem-grid" key={index}>
+        var filteredAssignmentListDataItems = this.props.assignmentListData.items
+        if (this.state.featuredOnly) filteredAssignmentListDataItems = filteredAssignmentListDataItems.filter(function (item) {
+            return (item.featured === "true")
+            });
+        var assignments = filteredAssignmentListDataItems.map((assignmentData, index)=>
+            <div className="projectitem-col ms-Grid-col ms-u-sm12 ms-u-lg6 ms-u-xl4 ms-u-xxl3 ms-u-fadeIn500" key={index}>
+                <div className="ms-Grid assignmentitem-grid">
                     <div className="ms-Grid-row">
                         <div className="assignmenttitle-col assignmentvalue-col ms-Grid-col ms-fontWeight-semibold ms-u-sm12">
                             {assignmentData.title}
@@ -35,6 +48,13 @@ class AssignmentList extends Component {
         );
         return(
             <div className="assignmentlistwrapper">
+                <div className="listfilter">
+                    <Toggle
+                        defaultChecked={ this.state.featuredOnly }
+                        label='Show featured projects only'
+                        onChanged={(checked) => {this.setState({featuredOnly: checked})}}
+                        />
+                </div>
                 <div className="ms-Grid assignmentlist-grid">
                     <div className="ms-Grid-row">
                         {assignments}

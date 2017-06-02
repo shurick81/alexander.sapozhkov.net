@@ -4,10 +4,6 @@ import { PrimaryButton } from 'office-ui-fabric-react/lib/Button';
 import Scroll from 'react-scroll';
 
 var Link       = Scroll.Link;
-var Element    = Scroll.Element;
-var Events     = Scroll.Events;
-var scroll     = Scroll.animateScroll;
-var scrollSpy  = Scroll.scrollSpy;
 
 class BackToTopButton extends Component {
     render() {

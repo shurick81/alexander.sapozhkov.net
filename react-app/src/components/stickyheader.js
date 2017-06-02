@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './stickyheader.css';
 import personaImageSmall from '../photos/persona-small.jpg';
-import personaImageBig from '../photos/persona-big.jpg';
 import PageNav from './pagenav';
-import { IconButton, IButtonProps } from 'office-ui-fabric-react/lib/Button';
+import { IconButton } from 'office-ui-fabric-react/lib/Button';
 
 class StickyHeader extends Component {
     constructor(props) {

@@ -5,7 +5,6 @@ import 'react-responsive-carousel/lib/styles/carousel.css';
 import MediaQuery from 'react-responsive';
 import { Panel, PanelType } from 'office-ui-fabric-react/lib/Panel';
 import ContentItem from './contentitem';
-import TestComponent from './testcomponent';
 
 class ContentList extends Component {
     constructor() {
@@ -40,7 +39,7 @@ class ContentList extends Component {
                 <ContentItem
                     contentItemData={contentItemData}
                     parentIndex={index}
-                    expandedExample={ index == this.state.displayedExample.index }
+                    expandedExample={ index === this.state.displayedExample.index }
                     onShowExampleButtonClick={() => this.onShowExampleButtonClick(index)}
                     onHideExampleButtonClick={() => this.onHideExampleButtonClick(index)}
                     onThumbClick={() => this.onThumbClick(contentItemData.fullImage, contentItemData.title)}
@@ -52,7 +51,7 @@ class ContentList extends Component {
                 <ContentItem
                     contentItemData={contentItemData}
                     parentIndex={index}
-                    expandedExample={ index == this.state.displayedExample.index }
+                    expandedExample={ index === this.state.displayedExample.index }
                     onShowExampleButtonClick={() => this.onShowExampleButtonClick(index)}
                     onHideExampleButtonClick={() => this.onHideExampleButtonClick(index)}
                     onThumbClick={() => this.onThumbClick(contentItemData.fullImage, contentItemData.title)}

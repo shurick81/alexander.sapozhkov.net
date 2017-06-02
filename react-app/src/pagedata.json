@@ -250,7 +250,8 @@
                         "type": "Intranet Implementation",
                         "title": "Intranet Implementation",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
-                        "technologies": ["SharePoint 2013"]
+                        "technologies": ["SharePoint 2013"],
+                        "featured": "true"
                     },
                     {
                         "beginning": "2013-07-01",
@@ -261,7 +262,8 @@
                         "type": "Custom development",
                         "title": "Freelance Job Management",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator", "Architect"],
-                        "technologies": ["SharePoint 2010"]
+                        "technologies": ["SharePoint 2010"],
+                        "featured": "true"
                     },
                     {
                         "beginning": "2013-06-01",
@@ -327,7 +329,8 @@
                         "type": "Portal implementation",
                         "title": "Intranet and Partner Portal",
                         "roles": ["Analyst", "Project Manager", "Administrator", "Architect"],
-                        "technologies": ["SharePoint 2010"]
+                        "technologies": ["SharePoint 2010"],
+                        "featured": "true"
                     },
                     {
                         "beginning": "2012-02-12",
@@ -363,26 +366,26 @@
                         "technologies": ["SharePoint 2010"]
                     },
                     {
-                        "beginning": "2013-04-28",
-                        "ending": "2013-06-15",
-                        "client": "Itaka",
-                        "clientLogo": "itakalogo.png",
-                        "clientIndustry": "Real estate",
+                        "beginning": "2012-11-28",
+                        "ending": "2012-07-06",
+                        "client": "Lenstroytrest",
+                        "clientLogo": "lstlogo.png",
+                        "clientIndustry": "Construction",
                         "type": "Portal implementation",
                         "title": "Intranet Portal",
-                        "roles": ["Analyst", "Project Manager", "Administrator"],
+                        "roles": ["Developer", "Architect", "Administrator"],
                         "technologies": ["SharePoint 2010"]
                     },
                     {
                         "beginning": "2013-04-28",
                         "ending": "2013-06-15",
-                        "client": "Itaka",
-                        "clientLogo": "itakalogo.png",
-                        "clientIndustry": "Real estate",
-                        "type": "Portal implementation",
-                        "title": "Intranet Portal",
-                        "roles": ["Analyst", "Project Manager", "Administrator"],
-                        "technologies": ["SharePoint 2010"]
+                        "client": "SevZap NTC",
+                        "clientLogo": "sevzapntclogo.png",
+                        "clientIndustry": "Energy",
+                        "type": "Upgrade",
+                        "title": "Intranet Portal Upgrade",
+                        "roles": ["Analyst", "Developer", "Administrator"],
+                        "technologies": ["SharePoint 2007", "SharePoint 2010"]
                     }
                 ]
             }

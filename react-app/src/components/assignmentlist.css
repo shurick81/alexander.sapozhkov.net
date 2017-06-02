@@ -1,6 +1,11 @@
+.assignmentlistwrapper .listfilter
+{
+    text-align: left;
+    margin-bottom: 30px;
+}
 .assignmentlistwrapper .projectitem-col
 {
-    min-height: 280px;
+    min-height: 290px;
 }
 .assignmentlistwrapper .assignmentitem-grid
 {
@@ -20,6 +25,6 @@
 {
     height: auto; 
     width: auto; 
-    max-width: 200px; 
+    max-width: 210px; 
     max-height: 75px;
 }

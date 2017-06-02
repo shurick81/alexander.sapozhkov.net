@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './contentitem.css';
-var Carousel = require('react-responsive-carousel').Carousel;
 import { PrimaryButton } from 'office-ui-fabric-react/lib/Button';
 import { Callout, DirectionalHint } from 'office-ui-fabric-react/lib/Callout';
 
@@ -35,13 +34,12 @@ class ContentItem extends Component {
     {
         if (txt!=null)
         {
-            var newIndex = !expanded ? index : -1;
             var buttonIcon = !expanded ? "ChevronDown" : "ChevronUp";
             var exampleButtonOnclick = !expanded ? this.props.onShowExampleButtonClick : this.props.onHideExampleButtonClick;
             return (
                 <div className="slide-example">
                     <div className='examplebuttonarea' ref={ (exampleButton) => {
-                            if (typeof(this.examplerefs) == "undefined" )
+                            if (typeof(this.examplerefs) === "undefined" )
                             {
                                 this.examplerefs={};
                             }
