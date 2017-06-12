@@ -121,7 +121,7 @@
                     {
                         "title": "Negotiating with customer and interpreting their demands",
                         "image": "swayprojectThumb.png",
-                        "text": "Often a project budjet can be saved just by correct interpreting customer needs. Numerous times I just had to talk to project sponsor to explain that it is reasonable to postpone builiding one or another system feature. In other occasions I needed to discuss requirements to realize that some use cases were distorted or misinterpret by sales or project managers.",
+                        "text": "Often a project budget can be saved just by correct interpreting customer needs. Numerous times I just had to talk to project sponsor to explain that it is reasonable to postpone building one or another system feature. In other occasions I needed to discuss requirements to realize that some use cases were distorted or misinterpret by sales or project managers.",
                         "example": "Initially customer requested employee examination system with statistics page. When I discussed this demand with client it turned out that using Excel reports will be convenient solution for users, which reduced development efforts by hundreds of hours."
                     },
                     {
@@ -140,7 +140,7 @@
                         "title": "Foresee and address future customer demands",
                         "image": "headphonesvrThumb.jpg",
                         "text": "It is crucial for architect to not constrain the solution by current demands only, but also to keep in mind possible future improvement directions.",
-                        "example": "In one project in 2016 for one of Stockholm union organization we needed a search function for content in multiple site collections of a custom document management system. The most obvious decision was to base a filter on system URL. However, I instisted on filtering based on content types instead. One year after customer decided to build one more system in the same URL, so the decidion regarding content types filtering allowed to use one URL for multiple systems without any conflicts."
+                        "example": "In one project in 2016 for one of Stockholm union organization we needed a search function for content in multiple site collections of a custom document management system. The most obvious decision was to base a filter on system URL. However, I instisted on filtering based on content types instead. One year after customer decided to build one more system in the same URL, so the decision regarding content types filtering allowed to use one URL for multiple systems without any conflicts."
                     },
                     {
                         "title": "Complex SharePoint farm topologies design",
@@ -236,7 +236,27 @@
             "title": "Assignments",
             "anouncement": "The list of activities I hope you will find good to know about",
             "icon": "IssueTracking",
+            "moodPhoto": "achievement",
             "text": "Choose appropriate filter:",
+            "employers":
+            {
+                "items":[
+                    {
+                        "title": "Maxsoft",
+                        "beginning": "2003-09-01",
+                        "ending": "2006-10-30",
+                        "logo": "maxsoftlogo.png",
+                        "position": "MS Solutions Engineer"
+                    },
+                    {
+                        "title": "Kentor",
+                        "beginning": "2014-02-28",
+                        "ending": "Currently working",
+                        "logo": "maxsoftlogo.png",
+                        "position": "SharePoint Senior Developer"
+                    }
+                ]
+            },
             "assignments":
             {
                 "items":
@@ -244,9 +264,23 @@
                     {
                         "beginning": "2013-10-01",
                         "ending": "2014-01-31",
+                        "client": "Unionen",
+                        "clientLogo": "unionenlogo.png",
+                        "clientIndustry": "Public Services",
+                        "employer": "Kentor",
+                        "type": "Custom development",
+                        "title": "Personal library implementation",
+                        "roles": ["Developer", "Administrator"],
+                        "technologies": ["SharePoint 2013"],
+                        "featured": "true"
+                    },
+                    {
+                        "beginning": "2013-10-01",
+                        "ending": "2014-01-31",
                         "client": "Gazprom Gazomotornoye Toplivo",
                         "clientLogo": "gplogo.png",
                         "clientIndustry": "Gaz and Oil",
+                        "employer": "Conteq",
                         "type": "Intranet Implementation",
                         "title": "Intranet Implementation",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
@@ -259,6 +293,7 @@
                         "client": "585",
                         "clientLogo": "585logo.png",
                         "clientIndustry": "Jewelry",
+                        "employer": "Conteq",
                         "type": "Custom development",
                         "title": "Freelance Job Management",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator", "Architect"],
@@ -271,6 +306,7 @@
                         "client": "Lenta",
                         "clientLogo": "lentalogo.png",
                         "clientIndustry": "Retail Chain",
+                        "employer": "Conteq",
                         "type": "Project Management Automation",
                         "title": "Project Management Automation",
                         "roles": ["Administrator"],
@@ -282,6 +318,7 @@
                         "client": "A Plus Development",
                         "clientLogo": "apluslogo.png",
                         "clientIndustry": "Property Development",
+                        "employer": "Conteq",
                         "type": "Intranet Implementation",
                         "title": "Intranet Implementation",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
@@ -293,6 +330,7 @@
                         "client": "Agat",
                         "clientLogo": "agatlogo.png",
                         "clientIndustry": "Science and Research",
+                        "employer": "Conteq",
                         "type": "DMS implementation",
                         "title": "DMS implementation",
                         "roles": ["Developer", "Administrator"],
@@ -304,6 +342,7 @@
                         "client": "Itaka",
                         "clientLogo": "itakalogo.png",
                         "clientIndustry": "Real Estate",
+                        "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet Portal",
                         "roles": ["Analyst", "Project Manager", "Administrator"],
@@ -315,6 +354,7 @@
                         "client": "Kirovsky zavod",
                         "clientLogo": "kzlogo.png",
                         "clientIndustry": "Industrial Manufacturing",
+                        "employer": "Conteq",
                         "type": "Portal branding",
                         "title": "Intranet Portal Branding",
                         "roles": ["Analyst", "Project Manager", "Developer"],
@@ -326,6 +366,7 @@
                         "client": "Yves Rocher",
                         "clientLogo": "yvesrocherlogo.png",
                         "clientIndustry": "Cosmetic Industry",
+                        "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet and Partner Portal",
                         "roles": ["Analyst", "Project Manager", "Administrator", "Architect"],
@@ -338,6 +379,7 @@
                         "client": "Rosvodokanal",
                         "clientLogo": "rosvodokanallogo.png",
                         "clientIndustry": "Water Supply",
+                        "employer": "Conteq",
                         "type": "Portal maintenance",
                         "title": "Intranet Portal Maintenance",
                         "roles": ["Developer", "Administrator"],
@@ -349,6 +391,7 @@
                         "client": "BaltTransService (Transneft)",
                         "clientLogo": "transpetroleumlogo.jpg",
                         "clientIndustry": "Oil and Gaz",
+                        "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet Portal",
                         "roles": ["Analyst", "Project Manager", "Developer"],
@@ -360,6 +403,7 @@
                         "client": "Bushe",
                         "clientLogo": "bushelogo.png",
                         "clientIndustry": "Eating Places",
+                        "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet Portal and Tasks",
                         "roles": ["Analyst", "Project Manager", "Administrator", "Architect", "Developer"],
@@ -371,6 +415,7 @@
                         "client": "Lenstroytrest",
                         "clientLogo": "lstlogo.png",
                         "clientIndustry": "Construction",
+                        "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet Portal",
                         "roles": ["Developer", "Architect", "Administrator"],
@@ -382,6 +427,7 @@
                         "client": "SevZap NTC",
                         "clientLogo": "sevzapntclogo.png",
                         "clientIndustry": "Energy",
+                        "employer": "Conteq",
                         "type": "Upgrade",
                         "title": "Intranet Portal Upgrade",
                         "roles": ["Analyst", "Developer", "Administrator"],

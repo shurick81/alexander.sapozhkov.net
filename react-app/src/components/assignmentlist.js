@@ -33,7 +33,10 @@ class AssignmentList extends Component {
                         <div className="assignmentclient-col assignmentvalue-col ms-Grid-col ms-u-sm12">
                             <i className="ms-Icon ms-Icon--Suitcase" aria-hidden="true"></i> {assignmentData.client}
                         </div>
-                        <div className="assignmentdates-col assignmentvalue-col ms-Grid-col ms-u-sm12">
+                         <div className="assignmentclient-col assignmentvalue-col ms-Grid-col ms-u-sm12">
+                            <i className="ms-Icon ms-Icon--Suitcase" aria-hidden="true"></i> Employer: {assignmentData.employer}
+                        </div>
+                       <div className="assignmentdates-col assignmentvalue-col ms-Grid-col ms-u-sm12">
                             <i className="ms-Icon ms-Icon--Calendar" aria-hidden="true"></i> {assignmentData.beginning} - {assignmentData.ending}
                         </div>
                         <div className="assignmentroles-col assignmentvalue-col ms-Grid-col ms-u-sm12">
