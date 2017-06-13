@@ -374,7 +374,7 @@
                         "clientLogo": "wblogo.png",
                         "employer": "Kentor",
                         "roles": ["Developer"],
-                        "technologies": ["SharePoint Online", "Client Javascript"],
+                        "technologies": ["SharePoint Online", "Client JavaScript"],
                         "featured": "false"
                     },
                     {   "title": "SharePoint Fastrack Implemenation", "client": "Elkonor", "ending": "2016-12-20",
@@ -382,7 +382,7 @@
                         "clientLogo": "elkonorlogo.png",
                         "employer": "Kentor",
                         "roles": ["Developer"],
-                        "technologies": ["SharePoint Online", "Client Javascript"],
+                        "technologies": ["SharePoint Online", "Client JavaScript"],
                         "featured": "false"
                     },
                     {   "title": "Solution Migration", "client": "Red Cross", "ending": "2016-10-04",
