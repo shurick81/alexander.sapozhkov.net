@@ -3,9 +3,20 @@
     text-align: left;
     margin-bottom: 30px;
 }
-.assignmentlistwrapper .projectitem-col
+.assignmentlistwrapper .rolefilter-area, .assignmentlistwrapper .technologyfilter-area
 {
-    min-height: 310px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+@media (min-width: 640px) {
+    .assignmentlistwrapper .projectitem-col
+    {
+        min-height: 350px;
+    }
+}
+.assignmentlistwrapper .assignmenttitle-col
+{
+    margin-bottom: 0;
 }
 .assignmentlistwrapper .assignmentitem-grid
 {
