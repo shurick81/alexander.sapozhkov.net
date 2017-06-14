@@ -377,6 +377,19 @@
                         "technologies": ["SharePoint Online", "Client JavaScript"],
                         "featured": "false"
                     },
+                    {
+                        "beginning": "2016-09-01",
+                        "ending": "2016-12-26",
+                        "client": "Bavaria",
+                        "clientLogo": "bavarialogo.png",
+                        "clientIndustry": "Retail",
+                        "employer": "Kentor",
+                        "type": "Custom development",
+                        "title": "Sales management automation",
+                        "roles": ["Developer", "Administrator"],
+                        "technologies": ["SharePoint Online", "Azure"],
+                        "featured": "true"
+                    },
                     {   "title": "SharePoint Fastrack Implemenation", "client": "Elkonor", "ending": "2016-12-20",
                         "beginning": "2016-11-21",
                         "clientLogo": "elkonorlogo.png",
@@ -428,11 +441,11 @@
                         "employer": "Kentor",
                         "roles": ["Developer"],
                         "technologies": ["SharePoint 2013", "SharePoint Online"],
-                        "featured": "true"
+                        "featured": "false"
                     },
                     {
-                        "beginning": "2016-07-19",
-                        "ending": "2016-08-12",
+                        "beginning": "2016-01-11",
+                        "ending": "2016-03-02",
                         "client": "Karsten Moholt",
                         "clientLogo": "kmlogo.png",
                         "clientIndustry": "Manufacturing",
@@ -443,18 +456,29 @@
                         "technologies": ["SharePoint Online", "Client JavaScript"],
                         "featured": "true"
                     },
-                    {
-                        "beginning": "2016-08-13",
-                        "ending": "2016-12-09",
-                        "client": "Bavaria",
-                        "clientLogo": "bavarialogo.png",
-                        "clientIndustry": "Retail",
+                    {   "title": "Extranet Farm Migration", "client": "Unionen", "ending": "2016-03-01",
+                        "beginning": "2015-11-20",
+                        "clientLogo": "unionenlogo.png",
                         "employer": "Kentor",
-                        "type": "Custom development",
-                        "title": "Sales management automation",
-                        "roles": ["Developer", "Administrator"],
-                        "technologies": ["SharePoint Online", "Azure"],
-                        "featured": "true"
+                        "roles": ["Administrator", "Developer"],
+                        "technologies": ["SharePoint 2013"],
+                        "featured": "false"
+                    },
+                    {   "title": "SSO implementation", "client": "PwC", "ending": "2016-02-26",
+                        "beginning": "2015-10-30",
+                        "clientLogo": "pwclogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Administrator"],
+                        "technologies": ["SharePoint 2013"],
+                        "featured": "false"
+                    },
+                    {   "title": "SharePoint Fastrack Implemenation", "client": "Martinsen", "ending": "2016-02-16",
+                        "beginning": "2016-01-12",
+                        "clientLogo": "martinsenlogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Developer"],
+                        "technologies": ["SharePoint Online", "Client JavaScript"],
+                        "featured": "false"
                     },
                     {
                         "beginning": "2014-08-23",
