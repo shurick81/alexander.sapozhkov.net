@@ -275,6 +275,7 @@
                     "SharePoint Online",
                     "SharePoint 2013",
                     "SharePoint 2010",
+                    "SharePoint",
                     "Azure",
                     "Multitenancy",
                     "Client JavaScript",
@@ -480,17 +481,78 @@
                         "technologies": ["SharePoint Online", "Client JavaScript"],
                         "featured": "false"
                     },
-                    {
-                        "beginning": "2014-08-23",
-                        "ending": "2015-11-04",
-                        "client": "FASAB6f",
+                    {   "title": "Migrating to Online", "client": "Tradedoubler", "ending": "2016-01-29",
+                        "beginning": "2016-01-12",
+                        "clientLogo": "tradedoublerlogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Administrator"],
+                        "technologies": ["SharePoint Online"],
+                        "featured": "false"
+                    },
+                    {   "title": "Client SharePoint Farms Maintenance", "client": "TeleComputing", "ending": "2015-12-31",
+                        "beginning": "2014-02-28",
+                        "clientLogo": "tclogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Administrator", "Developer"],
+                        "technologies": ["SharePoint 2013", "SharePoint 2010", "SharePoint 2007", "SharePoint Online", "Client JavaScript"],
+                        "featured": "false"
+                    },
+                    {   "title": "SharePoint Fastrack Implemenation", "client": "Aleris", "ending": "2015-09-22",
+                        "beginning": "2015-05-07",
+                        "clientLogo": "alerislogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Developer"],
+                        "technologies": ["SharePoint Online", "Client JavaScript"],
+                        "featured": "false"
+                    },
+                    {   "title": "SharePoint Fastrack Development", "client": "Kentor", "ending": "2015-07-15",
+                        "beginning": "2015-03-15",
+                        "clientLogo": "kentorlogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Architect", "Developer"],
+                        "technologies": ["SharePoint Online", "Client JavaScript"],
+                        "featured": "false"
+                    },
+                    {   "title": "SharePoint Fastrack Implemenation", "client": "Grieg Group", "ending": "2015-07-02",
+                        "beginning": "2015-06-04",
+                        "clientLogo": "greiglogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Developer"],
+                        "technologies": ["SharePoint Online", "Client JavaScript"],
+                        "featured": "false"
+                    },
+                    {   "title": "Intranet Farm Migration", "client": "Mestergruppen", "ending": "2015-06-17",
+                        "beginning": "2015-04-09",
+                        "clientLogo": "mestergruppenlogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Administrator"],
+                        "technologies": ["SharePoint 2013"],
+                        "featured": "false"
+                    },
+                    {   "title": "Document Management System", "client": "FASAB6f", "ending": "2015-04-08",
+                        "beginning": "2014-10-10",
                         "clientLogo": "fasablogo.png",
                         "clientIndustry": "Public services",
                         "employer": "Kentor",
                         "type": "Document management system implementation",
-                        "title": "Implementing document management and collaboration sites",
                         "roles": ["Developer", "Administrator"],
                         "technologies": ["SharePoint 2013", "Multitenancy"],
+                        "featured": "true"
+                    },
+                    {   "title": "Intranet Upgrade", "client": "Rema 1000", "ending": "2015-01-16",
+                        "beginning": "2014-10-02",
+                        "clientLogo": "remalogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Administrator"],
+                        "technologies": ["SharePoint 2010", "SharePoint 2013"],
+                        "featured": "false"
+                    },
+                    {   "title": "Intranet Package Development", "client": "TeleComputing", "ending": "2014-09-02",
+                        "beginning": "2014-04-06",
+                        "clientLogo": "tclogo.png",
+                        "employer": "Kentor",
+                        "roles": ["Architect", "Developer"],
+                        "technologies": ["SharePoint 2013", "Client JavaScript"],
                         "featured": "true"
                     },
                     {
@@ -515,7 +577,7 @@
                         "employer": "Conteq",
                         "type": "Custom development",
                         "title": "Freelance Job Management",
-                        "roles": ["Analyst", "Project Manager", "Developer", "Administrator", "Architect"],
+                        "roles": ["Analyst", "Developer", "Administrator", "Architect"],
                         "technologies": ["SharePoint 2010"],
                         "featured": "true"
                     },
@@ -564,7 +626,7 @@
                         "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet Portal",
-                        "roles": ["Analyst", "Project Manager", "Administrator"],
+                        "roles": ["Analyst", "Administrator"],
                         "technologies": ["SharePoint 2010"]
                     },
                     {
@@ -576,7 +638,7 @@
                         "employer": "Conteq",
                         "type": "Portal branding",
                         "title": "Intranet Portal Branding",
-                        "roles": ["Analyst", "Project Manager", "Developer"],
+                        "roles": ["Analyst", "Developer"],
                         "technologies": ["SharePoint 2010"]
                     },
                     {
@@ -613,7 +675,7 @@
                         "employer": "Conteq",
                         "type": "Portal implementation",
                         "title": "Intranet Portal",
-                        "roles": ["Analyst", "Project Manager", "Developer"],
+                        "roles": ["Developer"],
                         "technologies": ["SharePoint 2010"]
                     },
                     {
@@ -640,17 +702,40 @@
                         "roles": ["Developer", "Architect", "Administrator"],
                         "technologies": ["SharePoint 2010"]
                     },
-                    {
+                    { "title": "Intranet Portal Upgrade", "client": "SevZap NTC", "ending": "2013-06-15",
                         "beginning": "2013-04-28",
-                        "ending": "2013-06-15",
-                        "client": "SevZap NTC",
                         "clientLogo": "sevzapntclogo.png",
                         "clientIndustry": "Energy",
                         "employer": "Conteq",
                         "type": "Upgrade",
-                        "title": "Intranet Portal Upgrade",
                         "roles": ["Analyst", "Developer", "Administrator"],
                         "technologies": ["SharePoint 2007", "SharePoint 2010"]
+                    },
+                    {   "title": "Hiring Process Management Automation", "client": "Megafon", "ending": "2009-09-18",
+                        "beginning": "2008-10-14",
+                        "clientLogo": "megafonlogo.png",
+                        "employer": "Utilex IT 2000",
+                        "roles": ["Architect", "Administrator"],
+                        "technologies": ["SharePoint 2007", "SharePoint"],
+                        "featured": "false"
+                    },
+                    {   "title": "Developing Energy Budgeting System", "client": "Alrosa", "ending": "2008-11-26",
+                        "beginning": "2007-06-01",
+                        "clientLogo": "alrosalogo.png",
+                        "employer": "Utilex IT 2000",
+                        "roles": ["Architect", "Developer", "Administrator"],
+                        "technologies": ["SharePoint 2007", "InfoPath", "SharePoint"],
+                        "featured": "true"
+                    },
+                    { "title": "Collaboration Portal Implementation", "client": "TV7 Krasnoyarsk", "ending": "2005",
+                        "beginning": "2005",
+                        "clientLogo": "tv7logo.png",
+                        "clientIndustry": "Energy",
+                        "employer": "Maxsoft",
+                        "type": "Intranet implementation",
+                        "roles": ["Developer", "Administrator"],
+                        "technologies": ["SharePoint Services 2.0", "SharePoint"],
+                        "featured": "true"
                     }
                 ]
             }
