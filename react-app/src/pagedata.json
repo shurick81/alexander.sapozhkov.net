@@ -1,5 +1,5 @@
 {    
-    "personName": "Alexander SaPozhkov",
+    "personName": "Aleksandr SaPozhkov",
     "titleImage": "MCSE_SharePoint_Blk.png",
     "jobTitle": "SharePoint Solutions Expert",
     "personAnouncement": "I am glad you made it!",
@@ -10,16 +10,24 @@
             "anouncement": "Overall information",
             "icon": "Home",
             "moodPhoto": "inferno",
-            "text": "Back to 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader on Krasnoyarsk IT market. Telesphere, one of the local television companies, ordered to replace their old-fashioned network-drive-styled document sharing with top-notch web solution based on SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations.",
+            "text": "Back to 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader on Krasnoyarsk IT market. Telesphere, one of the local television companies, ordered to replace their old-fashioned network-drive-styled document sharing with top-notch web solution based on SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my CV.</a>",
             "currentJob":
             {
+                "icon": "Work",
                 "label": "Current Job",
                 "text": "These days I work for Kentor, a leading IT company in Stockholm. My job is a mix of solution design on a SharePoint platform, development and deployment. Not only do I appreciate technical challenges here, but this company encourages me to train soft skills and keep in tonus my balance between the value that we bring to the company and our cost, which is crucial nowadays."
             },
             "humanLanguages":
             {
+                "icon": "ReminderGroup",
                 "label": "Human Languages",
                 "text": "My mother tongue is Russian. My command of English is also not bad: I recently took the IELTS exam, that placed my usage of the language at C1-C2 from one skill to another."
+            },
+            "certification":
+            {
+                "icon": "Certificate",
+                "label": "Qualifications",
+                "text": "I regularly examine myself so apart from SharePoint Solutions Expert I have earned many other qualifications and certifications. Feel free to read aobut them on <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>Microsoft Certified Professional web site</a> using Transcript ID 693553 and Accesscode Alexengine."
             },
             "assignmentTypes": {
                 "label": "Project Experience",

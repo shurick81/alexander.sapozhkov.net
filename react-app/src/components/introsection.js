@@ -14,16 +14,20 @@ class IntroSection extends Component {
                         <div className="text-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg12 ms-u-xl4 ms-u-xxl4">
                             <div className="ms-Grid introsectiontext-grid">
                                 <div className="ms-Grid-row">
-                                    <div className="text-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
+                                    <div className="sectiontext-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
                                         <div className="sectiontext top ms-font-l" dangerouslySetInnerHTML={{__html: this.props.sectionData.text}} />
                                     </div>
-                                    <div className="text-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
-                                        <h3 className="contenttext-header ms-font-xl">{this.props.sectionData.currentJob.label}</h3>
+                                    <div className="currentjobtext-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
+                                        <h3 className="contenttext-header ms-font-xl"><i className={`ms-Icon ms-Icon--${this.props.sectionData.currentJob.icon}`} aria-hidden="true"></i> {this.props.sectionData.currentJob.label}</h3>
                                         <div className="sectiontext ms-font-l" dangerouslySetInnerHTML={{__html: this.props.sectionData.currentJob.text}} />
                                     </div>
-                                    <div className="text-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
-                                        <h3 className="contenttext-header ms-font-xl">{this.props.sectionData.humanLanguages.label}</h3>
+                                    <div className="humanlanguagestext-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
+                                        <h3 className="contenttext-header ms-font-xl"><i className={`ms-Icon ms-Icon--${this.props.sectionData.humanLanguages.icon}`} aria-hidden="true"></i> {this.props.sectionData.humanLanguages.label}</h3>
                                         <div className="sectiontext ms-font-l" dangerouslySetInnerHTML={{__html: this.props.sectionData.humanLanguages.text}} />
+                                    </div>
+                                    <div className="certificationtext-col ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg6 ms-u-xl12 ms-u-xxl12">
+                                        <h3 className="contenttext-header ms-font-xl"><i className={`ms-Icon ms-Icon--${this.props.sectionData.certification.icon}`} aria-hidden="true"></i> {this.props.sectionData.certification.label}</h3>
+                                        <div className="sectiontext ms-font-l" dangerouslySetInnerHTML={{__html: this.props.sectionData.certification.text}} />
                                     </div>
                                 </div>
                             </div>
