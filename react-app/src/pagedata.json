@@ -146,13 +146,13 @@ n                        "text": "The primary goal of each task I perform is the
                         "title": "Foresee and address future customer demands",
                         "image": "headphonesvrThumb.jpg",
                         "text": "It is crucial for an architect to not constrain the solution by current demands only, but also to keep in mind possible future improvement directions.",
-                        "example": "In one project in 2016 for one of Stockholm union organization we needed a search function for content in multiple site collections of a custom document management system. The most obvious decision was to base a filter on system URL. However, I instisted on filtering based on content types instead. One year after customer decided to build one more system in the same URL, so the decision regarding content types filtering allowed to use one URL for multiple systems without any conflicts."
+                        "example": "In one project in 2016 for a Stockholm union organization, we needed a search function for content in multiple site collections of a custom document management system. The most obvious decision was to base a filter on the system URL. However, I insisted on filtering based on content types instead. One year later the customer decided to build one more system in the same URL, so the decision regarding content types filtering allowed the use of one URL for multiple systems without any conflicts."
                     },
                     {
                         "title": "Complex SharePoint farm topologies design",
                         "image": "appdesignThumb.jpg",
-                        "text": "Some farms that I've deployed were not trivial and that gave me uniquie experience in building optimal configuration for specific requirements.",
-                        "example": "In 2015 I have designed a farm for umbrella organization and the best solution was to apply multitenancy for isolating search, managed metadata and user profiles."
+                        "text": "Some farms that I've deployed were not trivial and that gave me unique experience in building optimal configurations for specific requirements.",
+                        "example": "In 2015 I designed a farm for an umbrella organization and the best solution was to apply multitenancy for isolating search, managed metadata and user profiles."
                     }
                 ]
             }
@@ -164,42 +164,40 @@ n                        "text": "The primary goal of each task I perform is the
             "icon": "Code",
             "moodPhoto": "typing",
             "keyAssets":{
-                "label": "Software development has changed a few times since I've developed my first commercial code. Here are few examples you might consider relevant to your tasks",
+                "label": "Software development has changed a great deal since I developed my first commercial code. Here are a few examples you might consider relevant to your tasks",
                 "contentItems": [
                     {
                         "title": "SPFx Delve web part for Kentor packaged Intranet",
                         "image": "TrendingWPThumb.png",
-                        "text": "I am sure that using cutting edge techology is the best for building long running solutions. This web part is supposed to show relevant documents on the Intranet home page. It was developed as a component of the Kentor package for building Intranet solution for their customers. It was my first experience of developing for SPFx. This particular web part was developed with the use of GQL, ReactJS and SCSS.",
+                        "text": "I am sure that using cutting edge technology is the best for building long running solutions. This web part was supposed to show relevant documents on the Intranet home page. It was developed as a component of the Kentor package for building Intranet solution for their customers. It was my first experience of developing for SPFx. This particular web part was developed with the use of GQL, ReactJS and SCSS.",
                         "fullImage": "TrendingWPFull.png"
                     },
                     {
-                        "title": "Responsive home page for TeleComputing Intranet Solution",
-                        "image": "TCIntraThumb.png",
-                        "text": "In 2014 Kentor was a subsidiary of the TeleComputing and I have developed a packaged Intranet solution so that TeleComputing could deliver it to their customers. My task was to develop a structure, installation package and unique layout that could be used for both desktop and mobile displays.",
+                        "title": "Responsive home page for TeleComputing Intranet Solution",                        "image": "TCIntraThumb.png",
+                        "text": "In 2014 Kentor was a subsidiary of TeleComputing and I developed a packaged Intranet solution so that TeleComputing could deliver it to their customers. My task was to develop a structure, installation package and unique layout that could be used for both desktop and mobile displays.",
                         "fullImage": "TCIntraFull.png"
                     },
                     {
                         "title": "Branding for SharePoint solutions",
                         "image": "sevminbrandingThumb.jpg",
-                        "text": "I am passioned about look and feel of solutions I deliver. So I put a lot of efforts into polishing components UI and making it stable to minimize the probability of further changes breaking the layout. In order to achieve this I use both CSS and JavaScript for such customizations. I have carried out dozens of branding tasks and I know both development workflow and SharePoint styles.",
+                        "text": "I am passionate about the look and feel of solutions I deliver. So I put a lot of effort into polishing component's UI and making it stable to minimize the probability of further changes breaking the layout. In order to achieve this I use both CSS and JavaScript for such customizations. I have carried out dozens of branding tasks and I know both the development workflow and SharePoint styles.",
                         "fullImage": "sevminbrandingFull.png"
                     },
-                    {
-                        "title": "Using built-in sharepoint functionality instead of reinventing the wheel",
+                    {                        "title": "Using built-in SharePoint functionality instead of reinventing the wheel",
                         "image": "metadatafilterThumb.png",
-                        "text": "Being familiar with SharePoint already more than ten years I know all its features as the back of my hand. I therefore stand for using high level development: customizing existing SharePoint components and features instead of developing something from the scratch. The example shows the usage of builtin SharePoint library metadata navigation, although I had to apply some styling to it.",
+                        "text": "Being familiar with SharePoint for already more than ten years I know all its features like the back of my hand. I therefore believe in using high level development: customizing existing SharePoint components and features instead of developing something from scratch. The example shows the usage of the built in SharePoint library metadata navigation, although I had to apply some styling to it.",
                         "fullImage": "metadatafilterFull.png"
                     },
                     {
                         "title": "Fractal Provisioner: Client Script SharePoint artefacts provisioning",
                         "image": "provisioningcodeThumb.png",
-                        "text": "When SharePoint Online was just started being trendy, Kentor needed a provisioning engine for deploying packaged solutions to multiple customers. I have developed <a href='http://fractalprovisioner.codeplex.com'>this framework</a> that allows to define the structure for deployment via XML document.",
+                        "text": "When SharePoint Online had just started to become fashionable, Kentor needed a provisioning engine for deploying packaged solutions to multiple customers. I developed <a href='http://fractalprovisioner.codeplex.com'>this framework</a> that allows the user to define the structure for deployment via an XML document.",
                         "fullImage": "provisioningcodeFull.png"
                     },
                     {
                         "title": "Agile development",
                         "image": "scrumThumb.png",
-                        "text": "I usually work in projects with adoptation of some agile methodology with granting roles, regular standup meetings. Usually I prefer to work with team because I appreciate deep expertise and specialization. However I am also used to being responsible for the whole task or project solely."
+                        "text": "I usually work in projects with the adoption of some agile methodology with granting roles and regular standup meetings. Usually I prefer to work with a team because I appreciate deep expertise and specialization. However, I am also used to being responsible for the whole task or project solely."
                     }
                 ]
             }
@@ -212,27 +210,27 @@ n                        "text": "The primary goal of each task I perform is the
             "moodPhoto": "hardware",
             "text": "Before coming across SharePoint I have gained an invaluable experience of network administrator. Thorough understanding computer network fundamentals gives me a great advantage when the discussion comes to integrating new solution with existing enterprise application and infrastructure.",
             "keyAssets": {
-                "label": "Here is what distinguishs me on this role:",
+                "label": "Here is what distinguishes me in this role:",
                 "contentItems": [
                     {
                         "title": "Automated deployment",
                         "image": "machineworkThumb.jpg",
-                        "text": "I believe every configurational change should be automated and scripted as much as possible. I use DSC framework together with PowerShell scripting. Not only does this save time on applying the same change in multiple environments, such as development, test and production, but it also improves the probability that the change will be documented and it will be possible to find its trace in versioning control systems."
+                        "text": "I believe every configurational change should be automated and scripted as much as possible. I use the DSC framework together with PowerShell scripting. Not only does this save time on applying the same change in multiple environments, such as development, test and production, but it also improves the probability that the change will be documented and it will be possible to find its trace in versioning control systems."
                     },
                     {
                         "title": "Configuration management",
                         "image": "gearsThumb.jpg",
-                        "text": "This role requires discipline and surprisingly experience. After spending in total hundreds of hours on fixing mistakes in deployment procedure I have learned the value of routines: issuing release notes, updating configuration documentation, logging, roll back planning, etc."
+                        "text": "This role requires discipline and experience. After spending in total hundreds of hours on fixing mistakes in the deployment procedure, I have learned the value of routines: issuing release notes, updating configuration documentation, logging, roll back planning, etc."
                     },
                     {
                         "title": "Capacity planning",
                         "image": "datacenterThumb.jpg",
-                        "text": "I have troubleshooted performance issues multiple times and I know what are the most likely bottlenecks and how to plan the farm topology preventively."
+                        "text": "I have troubleshooted performance issues multiple times and I know what the most likely bottlenecks are and how to plan the farm topology preventively."
                     },
                     {
                         "title": "Troubleshooting",
                         "image": "healthcareThumb.jpg",
-                        "text": "Again, since I have got a serious experience of network administrator, I perfectly understand nuances of support and problem solving in a corporate environment. In the course of my life I have developed many usefull habbits and methods and also learned a number of tools for effective searching for the intrinsic problem and solution."
+                        "text": "Again, since I have significant experience as a network administrator, I perfectly understand the nuances of support and problem solving in a corporate environment. In the course of my life I have developed many useful habits and methods and have also developed a number of tools for effective searching for the intrinsic problem and solution."
                     }
                 ]
             }
@@ -240,7 +238,7 @@ n                        "text": "The primary goal of each task I perform is the
         {
             "id": "assignments",
             "title": "Assignments",
-            "anouncement": "The list of activities I hope you will find good to know about",
+            "anouncement": "A list of activities I hope you will find useful to know about",
             "icon": "IssueTracking",
             "moodPhoto": "achievement",
             "text": "Choose appropriate filter:",
