@@ -7,21 +7,21 @@
     "sections": [
         {   "id": "intro",
             "title": "Overview",
-            "anouncement": "Overall information",
+            "anouncement": "General information",
             "icon": "Home",
             "moodPhoto": "inferno",
-            "text": "Back to 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader on Krasnoyarsk IT market. Telesphere, one of the local television companies, ordered to replace their old-fashioned network-drive-styled document sharing with top-notch web solution based on SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my CV.</a>",
+            "text": "Back in 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader in the Krasnoyarsk IT market. The company met an order from Telesphere, local television company, ordered to replace their old-fashioned network-drive-styled document sharing with high quality web solution based on the SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my CV.</a>",
             "currentJob":
             {
                 "icon": "Work",
                 "label": "Current Job",
-                "text": "These days I work for Kentor, a leading IT company in Stockholm. My job is a mix of solution design on a SharePoint platform, development and deployment. Not only do I appreciate technical challenges here, but this company encourages me to train soft skills and keep in tonus my balance between the value that we bring to the company and our cost, which is crucial nowadays."
+                "text": "Currently, I work for Kentor, a leading IT company in Stockholm. My job is a mix of solution design on the SharePoint platform, development and deployment. Not only do I appreciate the technical challenges here, but this company encourages me to develop soft skills and to appreciate the balance between the value that we bring to the company and our cost, which is crucial in today's market."
             },
             "humanLanguages":
             {
                 "icon": "ReminderGroup",
-                "label": "Human Languages",
-                "text": "My mother tongue is Russian. My command of English is also not bad: I recently took the IELTS exam, that placed my usage of the language at C1-C2 from one skill to another."
+                "label": "Spoken Languages",
+                "text": "My mother tongue is Russian and I have a good command of English: I recently took the IELTS exam, that placed my usage of the language at C1-C2 from one skill to another."
             },
             "certification":
             {
@@ -55,7 +55,7 @@
                     { "title": "Teaching", "rating": 14 },
                     { "title": "Tech leading", "rating": 12 }
                 ]
-            },
+l            },
             "keyTechnologies":
             {
                 "label": "Technologies",
@@ -73,9 +73,8 @@
                     { "title": "MS Office", "rating": 4 },
                     { "title": "C#", "rating": 2 },
                     { "title": "SPFx", "rating": 1.7 },
-                    { "title": "ReactJS", "rating": 1.7 },
-                    { "title": "PHP", "rating": 1 },
-                    { "title": "Azure", "rating": 1 },
+                    { "title": "ReactJS", "rating": 1.7 },                    { "title": "PHP", "rating": 1 },
+a                    { "title": "Azure", "rating": 1 },
                     { "title": "Active Directory", "rating": 1 },
                     { "title": "TCP/IP", "rating": 1},
                     { "title": "DNS", "rating": 1 }
@@ -84,23 +83,22 @@
             "keyAdvantages": {
                 "label": "Qualities",
                 "contentItems": [
-                    {
-                        "title": "Business improvement",
+                    {                        "title": "Business improvement",
                         "image": "bdev-orig.jpg",
-                        "text": "The primary goal of each task I perform is improvement in your business. After many years in IT I perfectly realize and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even brilliant effort can end up ineffective.",
-                        "example": "In 2016 Working in Kentor company I have developed SharePoint Fastrack packaged service to facilitate customer engagement in new Intranet projects."
+n                        "text": "The primary goal of each task I perform is the improvement of your business. After many years in IT I realize perfectly well and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even a brilliant effort can end up being ineffective.",
+                        "example": "In 2016, while working for the Kentor company I developed a SharePoint Fastrack packaged service to facilitate customer engagement in new Intranet projects."
                     },
                     {
                         "title": "Passionate about IT",
                         "image": "passion-orig.jpg",
-                        "text": "Information technology is my obsession, which means I never get tired from doing this. It also means you don't have to motivate me doing great job since it's my destiny.",
-                        "example": "Even when project manager says 'Ok, let's admit we lost this opportunity', I don't give up and make impossible, because I know that nothing is impossible in IT."
+                        "text": "Information technology is my obsession, which means I never get tired of doing this. It also means you do not have to motivate me to do a great job since it is my vocation.",
+                        "example": "Even when a project manager says 'Ok, let's admit we lost this opportunity', I don't give up and accept the impossibility of the task, because I know that nothing is impossible in IT."
                     },
                     {
                         "title": "Long-term vision",
                         "image": "longterm-orig.jpg",
-                        "text": "Not only are know pain points my constant priority, but many years of experience behind my shoulders also allow me to foresee customer future needs and verify them with stakeholders.",
-                        "example": "Developing a request management system for Bavaria company I insisted on building a deployment script, which in its turn saved dozens and dozens of hours that we would have spent on deploying all the system changes in numerous development and production envionrment."
+                        "text": "Not only are known problem issues my constant priority, but the many years of experience behind me also allow me to foresee customers' future needs and verify them with stakeholders.",
+                        "example": "When developing a request management system for the Bavaria company, I insisted on building a deployment script, which in its turn saved dozens of hours that we would have spent on deploying all the system changes in numerous development and production envionrments."
                     }
                 ]
             }
@@ -112,42 +110,42 @@
             "icon": "Org",
             "moodPhoto": "design",
             "keyAssets": {
-                "label": "In the course of my SharePoint journey I've gained architecture skills",
+                "label": "In the course of my SharePoint journey I've gained architectural skills",
                 "contentItems": [
                     {
                         "title": "Enterprise demands understanding",
                         "image": "selectserviceThumb.jpg",
-                        "text": "I have been discussing business demands with top management of different companies and I perfectly understand their interests and the uniqueness of each business. I also collaborated a lot with IT departments and for this reasons I clearly realize causes and consequences of their policies and requirements.",
-                        "example": "In 2015 Kentor was contracted by one of union umbrella organization in Stockholm. Choosing the right type of SSL and SSO signing certificates was a challenging task but since I had had previous network administration experience."
+                        "text": "I have been discussing business demands with the top management of different companies and I perfectly understand their interests and the uniqueness of each business. I have also collaborated a lot with IT departments and for these reasons I clearly understand the causes and consequences of their policies and requirements.",
+                        "example": "In 2015 Kentor was contracted by a union umbrella organization in Stockholm. Choosing the right type of SSL and SSO signing certificates was a challenging task, but since I had had previous network administration experience, I was able to make the right decision."
                     },
                     {
                         "title": "Prototyping",
                         "image": "model-home-printing-3d-object.jpg",
-                        "text": "Making use of proper prototyping approach for proof of concept or for functional prototyping guaranteees the optimal resource consumption, which is essential especially on the beginning of a project.",
-                        "example": "When customer ordered Kentor to develop a system with complicated screen forms, I quickly developed form prototypes using Infopath in order to identify requirements."
+                        "text": "Making use of a proper prototyping approach for the proof of a concept or for functional prototyping, guarantees the optimal resource consumption, which is essential, especially at the beginning of a project.",
+                        "example": "When a customer ordered Kentor to develop a system with complicated screen forms, I quickly developed form prototypes using Infopath in order to identify requirements."
                     },
                     {
-                        "title": "Negotiating with customer and interpreting their demands",
+                        "title": "Negotiating with customers and interpreting their demands",
                         "image": "swayprojectThumb.png",
-                        "text": "Often a project budget can be saved just by correct interpreting customer needs. Numerous times I just had to talk to project sponsor to explain that it is reasonable to postpone building one or another system feature. In other occasions I needed to discuss requirements to realize that some use cases were distorted or misinterpret by sales or project managers.",
-                        "example": "Initially customer requested employee examination system with statistics page. When I discussed this demand with client it turned out that using Excel reports will be convenient solution for users, which reduced development efforts by hundreds of hours."
+                        "text": "Often a project budget can be saved just by correctly interpreting customer needs. On numerous occasions I only had to talk to the project sponsor to explain that it was reasonable to postpone building one or another system feature. On other occasions I needed to discuss requirements to realize that some use cases were distorted or misinterpret by sales or project managers.",
+                        "example": "Initially a customer requested an employee examination system with a statistics page. When I discussed this demand with the client, it turned out that using Excel reports would be a convenient solution for users, which reduced development efforts by hundreds of hours."
                     },
                     {
                         "title": "Evaluating multiple ways of implementing the solution",
                         "image": "differentapproachThumb.png",
-                        "text": "Instead of implementing the solution via first compelling implementation approach, I prefer to go the extra mile and consider possible future demands changes and also consider other implementation options.",
-                        "example": "The most popular framework for system elements provisioning in SharePoint is PnP Provisioning Engine. However, I insisted on comparing this tool with Meta2 for one particular solution and it appeared that Meta2 is more convenient for given task."
+                        "text": "Instead of implementing the solution via first completing the implementation approach, I prefer to go the extra mile and consider possible future changes in demand and to consider other implementation options.",
+                        "example": "The most popular framework for system elements provisioning in SharePoint is PnP Provisioning Engine. However, I insisted on comparing this tool with Meta2 for one particular solution and it appeared that Meta2 was more convenient for the given task."
                     },
                     {
                         "title": "Design patterns applying",
                         "image": "crystalstructureThumb.png",
-                        "text": "There is no secret that is not only software development a magic but it is also a craft with known practices and patterns, which help to achieve better result with less effort.",
+                        "text": "It is no secret that software development is not only a kind of magic, but also a craft with known practices and patterns, which help to achieve better results with less effort.",
                         "example": "Applying these patterns according to formal and assumed requirements made solution design less time consuming in many project."
                     },
                     {
                         "title": "Foresee and address future customer demands",
                         "image": "headphonesvrThumb.jpg",
-                        "text": "It is crucial for architect to not constrain the solution by current demands only, but also to keep in mind possible future improvement directions.",
+                        "text": "It is crucial for an architect to not constrain the solution by current demands only, but also to keep in mind possible future improvement directions.",
                         "example": "In one project in 2016 for one of Stockholm union organization we needed a search function for content in multiple site collections of a custom document management system. The most obvious decision was to base a filter on system URL. However, I instisted on filtering based on content types instead. One year after customer decided to build one more system in the same URL, so the decision regarding content types filtering allowed to use one URL for multiple systems without any conflicts."
                     },
                     {
