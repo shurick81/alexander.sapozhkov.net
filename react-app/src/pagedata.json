@@ -27,7 +27,7 @@
             {
                 "icon": "Certificate",
                 "label": "Qualifications",
-                "text": "I regularly examine myself so apart from SharePoint Solutions Expert I have earned many other qualifications and certifications. Feel free to read aobut them on <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>Microsoft Certified Professional web site</a> using Transcript ID 693553 and Accesscode Alexengine."
+                "text": "I regularly examine myself so apart from SharePoint Solutions Expert I have earned many other qualifications and certifications. Feel free to read about them on <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>Microsoft Certified Professional web site</a> using Transcript ID 693553 and Accesscode Alexengine."
             },
             "assignmentTypes": {
                 "label": "Project Experience",
@@ -55,7 +55,7 @@
                     { "title": "Teaching", "rating": 14 },
                     { "title": "Tech leading", "rating": 12 }
                 ]
-l            },
+            },
             "keyTechnologies":
             {
                 "label": "Technologies",
@@ -74,7 +74,7 @@ l            },
                     { "title": "C#", "rating": 2 },
                     { "title": "SPFx", "rating": 1.7 },
                     { "title": "ReactJS", "rating": 1.7 },                    { "title": "PHP", "rating": 1 },
-a                    { "title": "Azure", "rating": 1 },
+                    { "title": "Azure", "rating": 1 },
                     { "title": "Active Directory", "rating": 1 },
                     { "title": "TCP/IP", "rating": 1},
                     { "title": "DNS", "rating": 1 }
@@ -85,7 +85,7 @@ a                    { "title": "Azure", "rating": 1 },
                 "contentItems": [
                     {                        "title": "Business improvement",
                         "image": "bdev-orig.jpg",
-n                        "text": "The primary goal of each task I perform is the improvement of your business. After many years in IT I realize perfectly well and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even a brilliant effort can end up being ineffective.",
+                        "text": "The primary goal of each task I perform is the improvement of your business. After many years in IT I realize perfectly well and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even a brilliant effort can end up being ineffective.",
                         "example": "In 2016, while working for the Kentor company I developed a SharePoint Fastrack packaged service to facilitate customer engagement in new Intranet projects."
                     },
                     {
