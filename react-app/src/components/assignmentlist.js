@@ -8,11 +8,13 @@ class AssignmentList extends Component {
     constructor(props) {
         super(props);
         var roleFilters = {};
-        for (let role of this.props.assignmentListData.roles) {
+        for (var i in this.props.assignmentListData.roles) {
+            var role = this.props.assignmentListData.roles[i];
             roleFilters[role] = true;
         }
         var technologyFilters = {};
-        for (let technology of this.props.assignmentListData.technologies) {
+        for (var i in this.props.assignmentListData.technologies) {
+            var technology = this.props.assignmentListData.technologies[i];
             technologyFilters[technology] = true;
         }
         this.state = {
@@ -24,7 +26,7 @@ class AssignmentList extends Component {
         };
     };
     render() {
-        var roleFilters = this.props.assignmentListData.roles.map((role, index)=>  
+        var roleFilterControls = this.props.assignmentListData.roles.map((role, index)=>  
             <div className="rolefilter-col ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-u-xl2" key={index}>
                 <Checkbox
                     label={role}
@@ -40,7 +42,7 @@ class AssignmentList extends Component {
                     />
             </div>
         );
-        var technologyFilters = this.props.assignmentListData.technologies.map((technology, index)=>  
+        var technologyFilterControls = this.props.assignmentListData.technologies.map((technology, index)=>  
             <div className="technologyfilter-col ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg3 ms-u-xl2" key={index}>
                 <Checkbox
                     label={technology}
@@ -65,7 +67,7 @@ class AssignmentList extends Component {
             var display = false;
             for (var role in roleFiltersState)
             {
-                if ( roleFiltersState[role] && item.roles.includes(role) ) display = true;
+                if ( roleFiltersState[role] && item.roles.indexOf(role) >= 0 ) display = true;
             }
             return display;
         });
@@ -74,7 +76,7 @@ class AssignmentList extends Component {
             var display = false;
             for (var technology in technologyFiltersState)
             {
-                if ( technologyFiltersState[technology] && item.technologies.includes(technology) ) display = true;
+                if ( technologyFiltersState[technology] && item.technologies.indexOf(technology) >= 0 ) display = true;
             }
             return display;
         });
@@ -124,7 +126,7 @@ class AssignmentList extends Component {
                         </h3>
                         <div className="ms-Grid rolefilter-grid">
                             <div className="ms-Grid-row">
-                                {roleFilters}
+                                {roleFilterControls}
                             </div>
                         </div>
                     </div>
@@ -134,7 +136,7 @@ class AssignmentList extends Component {
                         </h3>
                         <div className="ms-Grid technologyfilter-grid">
                             <div className="ms-Grid-row">
-                                {technologyFilters}
+                                {technologyFilterControls}
                             </div>
                         </div>
                     </div>
