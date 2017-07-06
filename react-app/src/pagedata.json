@@ -10,7 +10,7 @@
             "anouncement": "General information",
             "icon": "Home",
             "moodPhoto": "inferno",
-            "text": "Back in 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader in the Krasnoyarsk IT market. The company met an order from Telesphere, local television company, ordered to replace their old-fashioned network-drive-styled document sharing with high quality web solution based on the SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my CV.</a>",
+            "text": "Back in 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader in the Krasnoyarsk IT market. The company met an order from Telesphere, local television company, ordered to replace their old-fashioned network-drive-styled document sharing with high quality web solution based on the SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my resume.</a>",
             "currentJob":
             {
                 "icon": "Work",
@@ -83,7 +83,8 @@
             "keyAdvantages": {
                 "label": "Qualities",
                 "contentItems": [
-                    {                        "title": "Business improvement",
+                    {
+                        "title": "Business improvement",
                         "image": "bdev-orig.jpg",
                         "text": "The primary goal of each task I perform is the improvement of your business. After many years in IT I realize perfectly well and always keep in mind that any improvement should bring value to the business and sponsors. Without this in mind even a brilliant effort can end up being ineffective.",
                         "example": "In 2016, while working for the Kentor company I developed a SharePoint Fastrack packaged service to facilitate customer engagement in new Intranet projects."
@@ -173,7 +174,8 @@
                         "fullImage": "TrendingWPFull.png"
                     },
                     {
-                        "title": "Responsive home page for TeleComputing Intranet Solution",                        "image": "TCIntraThumb.png",
+                        "title": "Responsive home page for TeleComputing Intranet Solution",
+                        "image": "TCIntraThumb.png",
                         "text": "In 2014 Kentor was a subsidiary of TeleComputing and I developed a packaged Intranet solution so that TeleComputing could deliver it to their customers. My task was to develop a structure, installation package and unique layout that could be used for both desktop and mobile displays.",
                         "fullImage": "TCIntraFull.png"
                     },
@@ -183,7 +185,8 @@
                         "text": "I am passionate about the look and feel of solutions I deliver. So I put a lot of effort into polishing component's UI and making it stable to minimize the probability of further changes breaking the layout. In order to achieve this I use both CSS and JavaScript for such customizations. I have carried out dozens of branding tasks and I know both the development workflow and SharePoint styles.",
                         "fullImage": "sevminbrandingFull.png"
                     },
-                    {                        "title": "Using built-in SharePoint functionality instead of reinventing the wheel",
+                    {
+                        "title": "Using built-in SharePoint functionality instead of reinventing the wheel",
                         "image": "metadatafilterThumb.png",
                         "text": "Being familiar with SharePoint for already more than ten years I know all its features like the back of my hand. I therefore believe in using high level development: customizing existing SharePoint components and features instead of developing something from scratch. The example shows the usage of the built in SharePoint library metadata navigation, although I had to apply some styling to it.",
                         "fullImage": "metadatafilterFull.png"
