@@ -1,7 +1,7 @@
 .section {
     margin-top: 50px;
 }
-.section .section-title-h .ms-Icon
+.section .section-title-h .ms-Icon, .section .contenttext-header .ms-Icon
 {
     position: relative;
     top: 3px;
