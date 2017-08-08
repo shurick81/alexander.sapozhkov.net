@@ -21,6 +21,9 @@ class ContactSection extends Component {
                             {contentLines}
                         </div>
                     </div>
+                    <div className="feedbackform-col ms-Grid-col ms-u-sm12">
+                        <iframe className="feedbackform" src="https://docs.google.com/forms/d/e/1FAIpQLSd-8xbYBFcff5NoqdEhS37wUmxTeoltHeL4FuL7DXIOBjDCkA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading feedback form...</iframe>
+                    </div>
                 </div>
             </BaseSection>
         );
