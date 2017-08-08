@@ -10,7 +10,7 @@
             "anouncement": "General information",
             "icon": "Home",
             "moodPhoto": "inferno",
-            "text": "Back in 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader in the Krasnoyarsk IT market. The company met an order from Telesphere, local television company, ordered to replace their old-fashioned network-drive-styled document sharing with high quality web solution based on the SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my resume.</a>",
+            "text": "Back in 2006 I worked as a Microsoft solutions engineer for Maxsoft, which is the leader in the Krasnoyarsk IT market. The company met an order from Telesphere, local television company, ordered to replace their old-fashioned network-drive-styled document sharing with high quality web solution based on the SharePoint Portal Server 2003. Since that time I have developed a multitude of intranet portals for different organizations. Please find this <a href='https://1drv.ms/b/s!AuySu5nQcwVzgZ1lu1ZH2qvW8SFmmA' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my resume.</a> and this <a href='https://1drv.ms/w/s!AuySu5nQcwVzgaAfrD1zFPEA16Glbg' target='_blank'><i class='ms-Icon ms-Icon--Print' aria-hidden='true'></i> version of my CV.</a>",
             "currentJob":
             {
                 "icon": "Work",
@@ -925,7 +925,7 @@
                 },
                 {
                     "class": "linkedin",
-                    "url": "https://www.linkedin.com/in/alexander-sapozhkov-1abb8424"
+                    "url": "https://www.linkedin.com/in/aleksandr-sapozhkov-1abb8424"
                 },
                 {
                     "class": "email",
