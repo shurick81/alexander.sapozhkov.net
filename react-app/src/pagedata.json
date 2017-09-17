@@ -73,7 +73,8 @@
                     { "title": "MS Office", "rating": 4 },
                     { "title": "C#", "rating": 2 },
                     { "title": "SPFx", "rating": 1.7 },
-                    { "title": "ReactJS", "rating": 1.7 },                    { "title": "PHP", "rating": 1 },
+                    { "title": "ReactJS", "rating": 1.7 },
+                    { "title": "PHP", "rating": 1 },
                     { "title": "Azure", "rating": 1 },
                     { "title": "Active Directory", "rating": 1 },
                     { "title": "TCP/IP", "rating": 1},
@@ -925,7 +926,7 @@
                 },
                 {
                     "class": "linkedin",
-                    "url": "https://www.linkedin.com/in/aleksandr-sapozhkov-1abb8424"
+                    "url": "https://www.linkedin.com/in/sapozhkov"
                 },
                 {
                     "class": "email",
