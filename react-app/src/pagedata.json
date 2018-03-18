@@ -15,7 +15,7 @@
             {
                 "icon": "Work",
                 "label": "Current Job",
-                "text": "Currently, I work for Kentor, a leading IT company in Stockholm. My job is a mix of solution design on the SharePoint platform, development and deployment. Not only do I appreciate the technical challenges here, but this company encourages me to develop soft skills and to appreciate the balance between the value that we bring to the company and our cost, which is crucial in today's market."
+                "text": "Currently, I work for Sopra Steria, a leading IT company in Europe. My job is a mix of solution design on the SharePoint platform with providing DevOps expertise. Not only do I appreciate the technical challenges here, but this company encourages me to develop soft skills and to appreciate the balance between the value that we bring to the company and our cost, which is crucial in today's market."
             },
             "humanLanguages":
             {
@@ -45,10 +45,10 @@
                 "label": "Skills",
                 "maximumRating": 25,
                 "items": [
-                    { "title": "Solution design", "rating": 25 },
-                    { "title": "Development", "rating": 22 },
+                    { "title": "DevOps", "rating": 25 },
+                    { "title": "SolutionDesign", "rating": 22 },
                     { "title": "Capacity planning", "rating": 21 },
-                    { "title": "Deployment", "rating": 19 },
+                    { "title": "Development", "rating": 19 },
                     { "title": "Branding", "rating": 18 },
                     { "title": "Presentation", "rating": 16 },
                     { "title": "Administration", "rating": 15 },
