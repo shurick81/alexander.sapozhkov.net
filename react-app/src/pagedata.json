@@ -293,7 +293,7 @@
                 ],
                 "items":
                 [
-                    { "title": "SharePoint 2013 to 2016 Migration", "client": "Unionen", "ending": "2018-04-01",
+                    { "title": "SharePoint 2013 to 2016 Migration", "client": "Unionen", "ending": "2018-03-31",
                         "beginning": "2017-10-01",
                         "clientLogo": "unionenlogo.png",
                         "clientIndustry": "Public Services",
@@ -309,7 +309,7 @@
                         "clientIndustry": "Public Services",
                         "employer": "Kentor",
                         "type": "Maintenance",
-                        "roles": ["Developer", "Administrator"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "false"
                     },
@@ -319,7 +319,7 @@
                         "clientIndustry": "Public Services",
                         "employer": "Kentor",
                         "type": "Maintenance",
-                        "roles": ["Developer", "Administrator"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "false"
                     },
@@ -327,7 +327,7 @@
                         "beginning": "2016-02-26",
                         "clientLogo": "pwclogo.png",
                         "employer": "Kentor",
-                        "roles": ["Developer", "Administrator"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "false"
                     },
@@ -335,24 +335,24 @@
                         "beginning": "2017-02-01",
                         "clientLogo": "silogo.png",
                         "employer": "Kentor",
-                        "roles": ["Developer", "Administrator"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "false"
                     },
-                    {   "title": "DMS Improvements", "client": "Unionen", "ending": "Currently working",
+                    {   "title": "DMS Improvements", "client": "Unionen", "ending": "2018-03-31",
                         "beginning": "2017-06-01",
                         "clientLogo": "unionenlogo.png",
                         "employer": "Kentor",
-                        "roles": ["Administrator"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "false"
                     },
-                    {   "title": "SharePoint Solutions Performance Optimization", "client": "PwC", "ending": "Currently working",
+                    {   "title": "SharePoint Solutions Performance Optimization", "client": "PwC", "ending": "2017-08-31",
                         "beginning": "2017-03-15",
                         "clientLogo": "pwclogo.png",
                         "employer": "Kentor",
-                        "roles": ["Developer", "Administrator", "SharePoint"],
-                        "technologies": ["SharePoint 2013", "Desired State Configuration"],
+                        "roles": ["DevOps"],
+                        "technologies": ["SharePoint 2013", "SharePoint", "Desired State Configuration"],
                         "featured": "true"
                     },
                     {
@@ -364,7 +364,7 @@
                         "employer": "Kentor",
                         "type": "Custom development",
                         "title": "Personal Library Implementation",
-                        "roles": ["Developer", "Administrator"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "true"
                     },
@@ -388,7 +388,7 @@
                         "beginning": "2016-12-22",
                         "clientLogo": "wblogo.png",
                         "employer": "Kentor",
-                        "roles": ["Developer"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint Online", "Client JavaScript", "SharePoint"],
                         "featured": "false"
                     },
@@ -401,7 +401,7 @@
                         "employer": "Kentor",
                         "type": "Custom development",
                         "title": "Sales management automation",
-                        "roles": ["Developer", "Administrator"],
+                        "roles": ["DevOps", "Administrator"],
                         "technologies": ["SharePoint Online", "Azure", "SharePoint"],
                         "featured": "true"
                     },
@@ -409,7 +409,7 @@
                         "beginning": "2016-11-21",
                         "clientLogo": "elkonorlogo.png",
                         "employer": "Kentor",
-                        "roles": ["Developer"],
+                        "roles": ["DevOps"],
                         "technologies": ["SharePoint Online", "Client JavaScript", "SharePoint"],
                         "featured": "false"
                     },
@@ -425,7 +425,7 @@
                         "beginning": "2016-03-01",
                         "clientLogo": "unionenlogo.png",
                         "employer": "Kentor",
-                        "roles": ["Architect","Developer"],
+                        "roles": ["Architect","DevOps"],
                         "technologies": ["SharePoint 2013", "CSOM", "Client JavaScript", "SharePoint"],
                         "featured": "false"
                     },
