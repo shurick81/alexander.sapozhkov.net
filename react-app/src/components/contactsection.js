@@ -22,7 +22,7 @@ class ContactSection extends Component {
                         </div>
                     </div>
                     <div className="feedbackform-col ms-Grid-col ms-u-sm12">
-                        <iframe className="feedbackform" src="https://docs.google.com/forms/d/e/1FAIpQLSd-8xbYBFcff5NoqdEhS37wUmxTeoltHeL4FuL7DXIOBjDCkA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading feedback form...</iframe>
+                        <iframe className="feedbackform" src="https://docs.google.com/forms/d/e/1FAIpQLSd-8xbYBFcff5NoqdEhS37wUmxTeoltHeL4FuL7DXIOBjDCkA/viewform?embedded=true" frameBorder="0" marginHeight="0" marginWidth="0">Loading feedback form...</iframe>
                     </div>
                 </div>
             </BaseSection>

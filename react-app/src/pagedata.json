@@ -15,7 +15,7 @@
             {
                 "icon": "Work",
                 "label": "Current Job",
-                "text": "Currently, I work for Sopra Steria, a leading IT company in Europe. My job is a mix of solution design on the SharePoint platform with providing DevOps expertise. Not only do I appreciate the technical challenges here, but this company encourages me to develop soft skills and to appreciate the balance between the value that we bring to the company and our cost, which is crucial in today's market."
+                "text": "Currently, I work for Sopra Steria, a leading IT company in Europe. My job is a mix of solution design on the SharePoint platform with providing DevOps expertise. Not only do I appreciate the technical challenges here, but also the fact that this company encourages me to develop soft skills and to appreciate the balance between the value that we bring to the company and our cost, which is crucial in today's market."
             },
             "humanLanguages":
             {
@@ -99,7 +99,7 @@
                     {
                         "title": "Long-term vision",
                         "image": "longterm-orig.jpg",
-                        "text": "Not only are known problem issues my constant priority, but the many years of experience behind me also allow me to foresee customers' future needs and verify them with stakeholders.",
+                        "text": "Not only are known issues my constant priority, but the many years of experience behind me also allow me to foresee customers' future needs and verify them with stakeholders.",
                         "example": "When developing a request management system for the Bavaria company, I insisted on building a deployment script, which in its turn saved dozens of hours that we would have spent on deploying all the system changes in numerous development and production envionrments."
                     }
                 ]
@@ -271,6 +271,7 @@
                 "roleFiltersHeaderText": "My role:",
                 "roles":
                 [
+                    "DevOps",
                     "Architect",
                     "Developer",
                     "Administrator",
@@ -281,6 +282,7 @@
                 "technologies":
                 [
                     "SharePoint Online",
+                    "SharePoint 2016",
                     "SharePoint 2013",
                     "SharePoint 2010",
                     "SharePoint",
@@ -291,7 +293,17 @@
                 ],
                 "items":
                 [
-                    { "title": "Four SharePoint Farms Maintenance", "client": "Unionen", "ending": "Currently working",
+                    { "title": "SharePoint 2013 to 2016 Migration", "client": "Unionen", "ending": "2018-04-01",
+                        "beginning": "2016-01-03",
+                        "clientLogo": "unionenlogo.png",
+                        "clientIndustry": "Public Services",
+                        "employer": "Sopra Steria",
+                        "type": "Upgrade",
+                        "roles": ["DevOps", "Architect"],
+                        "technologies": ["SharePoint 2016", "SharePoint"],
+                        "featured": "true"
+                    },
+                    { "title": "Multiple SharePoint Farms Maintenance", "client": "Unionen", "ending": "Currently working",
                         "beginning": "2016-01-03",
                         "clientLogo": "unionenlogo.png",
                         "clientIndustry": "Public Services",
@@ -301,7 +313,7 @@
                         "technologies": ["SharePoint 2013", "SharePoint"],
                         "featured": "false"
                     },
-                    { "title": "Two SharePoint Farms Maintenance", "client": "FASAB6f", "ending": "Currently working",
+                    { "title": "Multiple SharePoint Farms Maintenance", "client": "FASAB6f", "ending": "Currently working",
                         "beginning": "2015-04-08",
                         "clientLogo": "fasablogo.png",
                         "clientIndustry": "Public Services",
@@ -592,7 +604,7 @@
                         "title": "Intranet Implementation",
                         "roles": ["Analyst", "Project Manager", "Developer", "Administrator"],
                         "technologies": ["SharePoint 2013", "SharePoint"],
-                        "featured": "true"
+                        "featured": "false"
                     },
                     { "title": "Intranet Boxed Solution Development", "client": "Conteq", "ending": "2013-11-23",
                         "beginning": "2013-06-18",
@@ -614,7 +626,7 @@
                         "title": "Freelance Job Administration",
                         "roles": ["Analyst", "Developer", "Administrator", "Architect"],
                         "technologies": ["SharePoint 2010", "SharePoint"],
-                        "featured": "true"
+                        "featured": "false"
                     },
                     {
                         "beginning": "2013-04-15",
@@ -663,7 +675,7 @@
                         "title": "Intranet and Partner Portal",
                         "roles": ["Analyst", "Project Manager", "Administrator", "Architect"],
                         "technologies": ["SharePoint 2010", "SharePoint"],
-                        "featured": "true"
+                        "featured": "false"
                     },
                     { "title": "Intranet Portal Upgrade", "client": "SevZap NTC", "ending": "2013-06-15",
                         "beginning": "2013-04-28",
