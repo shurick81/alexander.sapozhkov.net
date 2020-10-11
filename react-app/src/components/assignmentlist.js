@@ -13,8 +13,8 @@ class AssignmentList extends Component {
             roleFilters[role] = true;
         }
         var technologyFilters = {};
-        for (var i in this.props.assignmentListData.technologies) {
-            var technology = this.props.assignmentListData.technologies[i];
+        for (var n in this.props.assignmentListData.technologies) {
+            var technology = this.props.assignmentListData.technologies[n];
             technologyFilters[technology] = true;
         }
         this.state = {
