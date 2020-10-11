@@ -27,7 +27,7 @@
             {
                 "icon": "Certificate",
                 "label": "Qualifications",
-                "text": "I regularly examine myself so apart from SharePoint Solutions Expert I have earned many other qualifications and certifications. Feel free to read about them on <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>Microsoft Certified Professional web site</a> using Transcript ID 693553 and Accesscode Alexengine."
+                "text": "I regularly examine myself so apart from SharePoint Solutions Expert I have earned many other qualifications and certifications. Feel free to read about them on <a href='https://mcp.microsoft.com/Anonymous/Transcript/Validate' target='_blank'>Microsoft Certified Professional web site</a> using Transcript ID 693553 and Access Code alexengine."
             },
             "assignmentTypes": {
                 "label": "Project Experience",
@@ -168,6 +168,11 @@
             "keyAssets":{
                 "label": "Software development has changed a great deal since I developed my first commercial code. Here are a few examples you might consider relevant to your tasks",
                 "contentItems": [
+                    {
+                        "title": "DevOps",
+                        "image": "Senior-DevOps-Engineer-Administrator.png",
+                        "text": "In SharePoint world, these principles are not too common. However, I got hands on experience in running infrastructure as code, configuration as code as well as in continuous testing and delivery. In order to meet challenges of agile projects I improved our team delivery routines with Azure Pipelines, Jenkins, Vagrant, Packer, Terraform, KitchenCI, Azure ARM, DCS, Ansible, Puppet and many other essential DevOps tools."
+                    },
                     {
                         "title": "SPFx Delve web part for Kentor packaged Intranet",
                         "image": "TrendingWPThumb.png",
@@ -934,7 +939,7 @@
                 {
                     "class": "phone",
                     "icon": "Phone",
-                    "number": "+7 981 833 6552"
+                    "number": "+46 708 966 119"
                 },
                 {
                     "class": "linkedin",
